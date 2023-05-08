@@ -1,0 +1,31 @@
+{{ define "header" }}
+  {{ partial "listing/list-breadcrumb.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<main>
+	
+
+	{{- with .Title }}
+	<h1>{{ .  }}</h1>
+	{{- end }}
+	<article>
+	{{- with .Content }}
+		{{ . }}
+	{{- end }}
+
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Date</th>
+			</tr>
+		</thead>
+		{{ partial "listing/parent-link.html" . }}
+		{{ partial "listing/sections.html" . }}
+		{{ partial "listing/articles.html" . }}
+
+	</table>
+	</article>
+</main>
+{{ end }}

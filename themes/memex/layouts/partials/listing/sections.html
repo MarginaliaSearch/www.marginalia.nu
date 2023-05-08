@@ -1,0 +1,8 @@
+{{ range .Sections }}
+<tr>
+    <td>📁 <a href="{{.Permalink}}">{{ .Title }}/</a></td>
+    {{ range first 1 .Pages }}
+    <td><date>{{.Date.Format "2006-01-02"}}</date></td>
+    {{ end }} 
+</tr>
+{{ end }}

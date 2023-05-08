@@ -1,0 +1,23 @@
+{{ define "header" }}
+  {{ partial "listing/list-breadcrumb.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<main>
+	
+
+	{{- with .Title }}
+	<h1>{{ .  }}</h1>
+	{{- end }}
+	<article>
+	{{- with .Content }}
+		{{ . }}
+	{{- end }}
+
+    {{ range .RegularPages }}
+    <h4>{{.Date.Format "2006-01-02"}} <span class="status-state-{{ index .Params "state" }}">{{ .Title }}</span> </h4>
+    {{ .Content }}
+    {{ end }}
+	</article>
+</main>
+{{ end }}

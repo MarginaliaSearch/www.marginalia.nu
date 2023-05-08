@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main>
+<h1>{{ .Title }}</h1>
+<article class="post">
+	<div class="meta">
+		Posted: {{.Date.Format "2006-01-02" }}
+		{{ partial "post/post-tag-list.html" . }}
+	</div>
+	<p>
+	<div id="content">
+		{{ .Content }}
+	</div>
+</article>
+</main>
+{{ end }}
+
+{{ define "header" }}
+  {{ partial "post/post-breadcrumb.html" . }}
+{{ end }}
+

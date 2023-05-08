@@ -1,0 +1,20 @@
+<nav id="breadcrumb" aria-label="breadcrumb">
+<ul>
+    <li>
+        <a href="/">🏘️ Marginalia</a>
+    </li>
+    {{ if .Title }}
+    <li>
+        <a href="/{{.Data.Plural}}">📁 {{.Data.Plural}}</a>
+    </li>
+    <li class="active">
+        <a href="{{ .Permalink }}"> 🏷️ {{ .Title }}</a>
+    </li>
+    {{ else }}
+    <li class="active">
+        <a href="/{{.Data.Plural}}">📁 {{.Data.Plural}}</a>
+    </li>
+    {{ end }}
+    
+</ul>
+</nav>

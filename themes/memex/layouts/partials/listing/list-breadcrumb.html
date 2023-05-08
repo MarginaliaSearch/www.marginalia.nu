@@ -1,0 +1,16 @@
+<nav id="breadcrumb" aria-label="breadcrumb">
+<ul>    
+    {{ if .Parent }}
+    <li>
+        <a href="/">🏘️ Marginalia</a>
+    </li>
+    <li class="active">
+        <a href="{{ .Permalink }}">📁 {{ .LinkTitle }}</a>
+    </li>
+    {{ else }}
+    <li class="active">
+        <a href="/">🏘️ Marginalia</a>
+    </li>
+    {{ end }}
+</ul>
+</nav>

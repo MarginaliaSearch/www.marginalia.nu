@@ -1,0 +1,17 @@
+<nav id="breadcrumb" aria-label="breadcrumb">
+<ul>
+    <li>
+        <a href="/">🏘️ Marginalia</a>
+    </li>
+    
+    {{ if .CurrentSection.Parent }}
+    <li>
+        <a href="{{ .CurrentSection.Permalink }}">📁 {{ .CurrentSection.LinkTitle }}</a>
+    </li>
+    {{ end }}
+
+    <li class="active">
+        <a href="{{ .Permalink }}">📄 {{ .LinkTitle }}</a>
+    </li>
+</ul>
+</nav>

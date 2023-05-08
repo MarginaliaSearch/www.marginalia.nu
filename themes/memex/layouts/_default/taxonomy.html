@@ -1,0 +1,34 @@
+{{ define "main" }}
+<main class="main list" role="main">
+	<article>
+	{{- with .Content }}
+		{{ . }}
+	{{- end }}
+
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Date</th>
+			</tr>
+		</thead>
+	
+		{{ partial "listing/sections.html" . }}
+		{{ partial "listing/articles.html" . }}
+
+		{{ range  $name,$pages :=.Data.Terms }}
+		<tr>
+			<td>🏷️ <a href="/{{$.Data.Plural}}/{{$name}}">{{$name}}</a></td><td>-</td>
+		</tr>
+		
+		{{ end }}
+
+	</table>
+	</article>
+</main>
+
+{{ end }}
+
+{{ define "header" }}
+  {{ partial "taxonomy/taxonomy-breadcrumb.html" . }}
+{{ end }}

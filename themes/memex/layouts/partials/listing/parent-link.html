@@ -1,0 +1,6 @@
+{{- with .CurrentSection.Parent }}
+<tr>
+    <td>📁 <a href="{{.Permalink}}">../</a></td>
+    <td><date>{{.Date.Format "2006-01-02"}}</date></td>
+</tr>
+{{- end }}

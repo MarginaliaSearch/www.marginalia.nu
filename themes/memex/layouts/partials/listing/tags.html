@@ -1,0 +1,6 @@
+{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+<tr>
+    <td>🏷️ <a href="/tags/{{$name}}/">{{ $name }}/</a></td>
+    <td>-</td>
+</tr>
+{{ end }}

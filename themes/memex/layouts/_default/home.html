@@ -1,0 +1,44 @@
+{{ define "header" }}
+  {{ partial "listing/list-breadcrumb.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<main>
+	
+
+	{{- with .Title }}
+	<h1>{{ .  }}</h1>
+	{{- end }}
+	<article>
+	{{- with .Content }}
+		{{ . }}
+	{{- end }}
+	
+	<h2>Site Index</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Date</th>
+			</tr>
+		</thead>
+		{{ partial "listing/parent-link.html" . }}
+		{{ partial "listing/sections.html" . }}
+		{{ partial "listing/articles.html" . }}
+
+	</table>
+	<h2>Recent Updates</h2>
+	<dl id="recent-posts">
+		{{ range first 5 .Site.RegularPages }}
+		<dt>
+			{{.Date.Format "2006-01-02"}} <a href="{{.Permalink}}">{{ .Title }}</a> in {{ .Section }}
+		</dt>
+		<dd>
+		{{ .Summary }}
+		</dd>
+		{{ end }}
+	</dl>
+
+	</article>
+</main>
+{{ end }}

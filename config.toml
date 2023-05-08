@@ -1,0 +1,43 @@
+baseURL = 'https://www.marginalia.nu/'
+languageCode = 'en-us'
+title = 'marginalia.nu'
+theme = 'memex'
+
+
+sectionPagesMenu = 'main'
+
+[markup.goldmark.renderer]
+  unsafe = true
+[taxonomies]
+  category = 'categories'
+  series = 'series'
+  tag = 'tags'
+
+[languages]
+  [language.en]
+    title = 'Marginalia'
+    description = 'RIP Memex'
+
+[outputs]
+  home = ["HTML", "JSON", "RSS"]
+
+[params]
+  author = 'Viktor Lofgren'
+  title = 'Marginalia'
+  description = 'RIP MEMEX'
+  googleFontsLink = false
+
+[Author]
+  name = "Viktor Lofgren"
+  bio = "Swedish hypertext enthusiast."
+  email = "kontakt@marginalia.nu"
+  
+[Params]
+  description = "Marginalia is a website, not a person." 
+  opengraph = true
+  twitter_cards = false
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true
+  pager = true
+  post_meta = ["date", "categories"] # Order of post meta information
+  mainSections = ["log", "recipes"]
