@@ -6,6 +6,7 @@ aliases = ["/log/49-marginalia-1-year.gmi"]
 draft = false
 categories = []
 tags = ["search-engine"]
+distinguished = 1
 +++
 
 

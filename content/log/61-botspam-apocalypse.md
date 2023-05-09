@@ -5,6 +5,8 @@ section = "blog"
 aliases = ["/log/61-botspam-apocalypse.gmi"]
 draft = false
 categories = []
+tags = [ "bots" ]
+distinguished = 1
 +++
 
 

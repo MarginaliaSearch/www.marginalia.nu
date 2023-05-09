@@ -5,7 +5,8 @@ section = "blog"
 aliases = ["/log/29-botnet-ddos.gmi"]
 draft = false
 categories = []
-tags = ["search-engine"]
+tags = ["search-engine", "bots"]
+
 +++
 
 

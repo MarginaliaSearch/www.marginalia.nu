@@ -5,7 +5,7 @@ section = "blog"
 aliases = ["/log/63-marginalia-crawler.gmi"]
 draft = false
 categories = []
-tags = ["search-engine"]
+tags = ["search-engine", "bots"]
 +++
 
 

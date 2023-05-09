@@ -16,7 +16,7 @@ Search-result relevance is a pretty difficult problem, but I do think the change
 A bit simplified, I'm building tiered indices, ranging from
 
 * Words in the title and first H1-tag
-* Words in the title, all H*-tags, and <B>-tags,  keyword meta-tags.
+* Words in the title, all H*-tags, and &lt;B&gt;-tags,  keyword meta-tags.
 * Capitalized Words in text
 * Words in text
 

@@ -5,7 +5,7 @@ section = "blog"
 aliases = ["/log/32-bot-apologetics.gmi"]
 draft = false
 categories = []
-tags = ["web-design"]
+tags = ["web-design", "bots"]
 +++
 
 
