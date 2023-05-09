@@ -5,6 +5,7 @@ section = "blog"
 aliases = ["/log/48-i-have-no-capslock.gmi"]
 draft = false
 categories = []
+distinguished = true
 tags = ["satire"]
 +++
 

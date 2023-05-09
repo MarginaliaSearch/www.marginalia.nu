@@ -20,7 +20,6 @@ https://api.marginalia.nu/public/search/json+api?index=0&count=10
 
 The 'index' parameter selects the search index, corresponding to the drop down next to the search field in the main GUI. 
 
-## Common Key
 For experimentation, the key "public" is available, as used in the examples on this page. This key has a shared rate limit across all consumers. When this rate limit is hit a HTTP status 503 is returned. 
 
 ## Key and license
@@ -34,7 +33,7 @@ By default the data is provided under the CC-BY-NC-SA 4.0 license. Other licensi
 * [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Sample code in python 3
-```
+```python
 import requests
 
 url = "https://api.marginalia.nu/{key}/search/{query}";

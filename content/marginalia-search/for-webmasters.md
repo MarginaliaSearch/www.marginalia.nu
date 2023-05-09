@@ -20,6 +20,7 @@ Telling me lets me fix whatever problem there is much faster, and if you are exp
 User-Agent: search.marginalia.nu
 IP address: 81.170.128.21
 ```
+
 ## robots.txt
 
 The search engine respects robots.txt, and looks for the user-agent "search.marginalia.nu" in specific, as well as general directives. Note that changes to robots.txt may not take effect immediately. 

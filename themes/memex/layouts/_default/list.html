@@ -4,28 +4,25 @@
 
 {{ define "main" }}
 <main>
-	
-
-	{{- with .Title }}
-	<h1>{{ .  }}</h1>
-	{{- end }}
+	<h1>{{ .Title  }}</h1>
 	<article>
-	{{- with .Content }}
-		{{ . }}
-	{{- end }}
 
-	<table>
-		<thead>
-			<tr>
-				<th>Name</th>
-				<th>Date</th>
-			</tr>
-		</thead>
-		{{ partial "listing/parent-link.html" . }}
-		{{ partial "listing/sections.html" . }}
-		{{ partial "listing/articles.html" . }}
+	<section id="list-content">
+	{{ .Content }}
+	</section>
 
-	</table>
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Date</th>
+				</tr>
+			</thead>
+			{{ partial "listing/parent-link.html" . }}
+			{{ partial "listing/sections.html" . }}
+			{{ partial "listing/articles.html" . }}
+
+		</table>
 	</article>
 </main>
 {{ end }}

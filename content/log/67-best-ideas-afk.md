@@ -5,6 +5,7 @@ section = "blog"
 aliases = ["/log/67-best-ideas-afk.gmi"]
 draft = false
 categories = []
+distinguished = 1
 +++
 
 

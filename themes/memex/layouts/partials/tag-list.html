@@ -1,0 +1,17 @@
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Count</th>
+        </tr>
+    </thead>
+    
+    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    {{ $cnt := .Count }}
+    <tr>
+        <td>🏷️ <a href="/tags/{{$name}}/">{{ $name }}/</a></td>
+        <td>{{$cnt}}</td>
+    </tr>
+    {{ end }}
+
+</table>

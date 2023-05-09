@@ -48,8 +48,10 @@ No, and it's not trying to. It's trying to complement Google, by being good at w
 
 ## Is this open source?
 
-* [It is](https://git.marginalia.nu/)
+Yes. The sources are AGPL licensed and available at 
+
+[https://git.marginalia.nu/](https://git.marginalia.nu/)
 
 ## What do I do if I a query pops up anything really tasteless or illegal?
 
-Send me an email and I'll see if I can't block the domain.
+Send me an email and I'll see if I can't block the domain. You can also use the 'info' link under the search result and file a report from there.

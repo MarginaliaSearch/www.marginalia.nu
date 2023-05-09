@@ -1,6 +1,13 @@
 {{ range .RegularPages }}
 <tr>
-    <td>📄 <a href="{{.Permalink}}">{{ .Title }}</a></td>
+    {{ $distinguished := index .Params "distinguished" }}
+    
+    <td>📄 <a href="{{.Permalink}}">{{ .Title }}</a>
+    {{ if $distinguished }}
+        <span class="distinguished">⭐</span>
+    {{ end }}
+    </td>
+
     <td><date>{{.Date.Format "2006-01-02"}}</date></td>
 </tr>
 {{ end }}

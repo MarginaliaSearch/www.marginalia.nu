@@ -4,6 +4,7 @@ date = 2022-01-15
 section = "blog"
 aliases = ["/log/43-pseodonymous.gmi"]
 draft = false
+distinguished = 1
 categories = []
 +++
 

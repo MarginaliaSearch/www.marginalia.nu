@@ -13,7 +13,7 @@ Goes well with pasta. Goes well with meatballs. Can even slather it on a pizza.
 
 ## Ingredients
 
-* A tin of tomato puree. About 2 dl or 1 eagle-screeching cup.
+* A tin of passed tomatoes. About 4 dl or 1-2 eagle-screeching cups.
 * An onion or two shallots. 
 * Salt
 * A whole bunch of dried Oregano

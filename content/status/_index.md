@@ -1,5 +1,6 @@
 ---
 title: "Server Status Log"
+section-icon: "🔧"
 ---
 
 Marginalia.nu server maintenance status log. You may have been redirected here during an outage. 

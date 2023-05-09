@@ -1,5 +1,5 @@
 +++
-title = "About search.marginalia.nu"
+title = "About Marginalia Search"
 date = 2022-12-23
 section = "marginalia-search"
 aliases = ["/projects/edge/about.gmi"]
@@ -45,7 +45,7 @@ Some would vilify search engines and commercial interests for transforming the I
 
 -
 
-The search engine calculates a score that aggressively favors text-heavy websites, and punishes those that have too many modern web design features.
+The search engine uses various heuristics to prefer text-heavy websites, and puts an upper limit on heavy modern web design inventions.
 
 This is in a sense the opposite of what most major search engines do, they favor modern websites over old-looking ones. Most links you find here will be nearly impossible to find on a regular search engine, as they aren't sufficiently search engine optimized.
 

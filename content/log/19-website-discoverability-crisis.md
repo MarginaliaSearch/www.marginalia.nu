@@ -5,6 +5,7 @@ section = "blog"
 aliases = ["/log/19-website-discoverability-crisis.gmi"]
 draft = false
 categories = []
+distinguished = 1
 tags = ["web-design", "platforms", "search-engine"]
 +++
 

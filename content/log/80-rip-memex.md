@@ -21,3 +21,5 @@ Initially the plan was to use an existing template, to save myself a lot of effo
 but it turns out the ones that looked good were kinda shit, and the ones that weren't
 shit were too bloated. 
 
+Hopefully *most* links to stuff anyone would want to read should still work, due to a
+system of nginx redirects and hugo alias directives.

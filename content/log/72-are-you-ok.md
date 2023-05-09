@@ -5,6 +5,7 @@ section = "blog"
 aliases = ["/log/72-are-you-ok.gmi"]
 draft = false
 categories = []
+distinguished = 1
 +++
 
 
