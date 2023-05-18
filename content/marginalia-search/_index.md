@@ -1,6 +1,9 @@
 ---
 type: "section"
 title: "Marginalia Search"
+aliases:
+- "/projects/edge/index.gmi"
+- "/projects/edge/changelog.gmi"
 ---
 
 Information relating to the Marginalia Search project. 
