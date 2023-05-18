@@ -1,0 +1,34 @@
+{{ define "header" }}
+  {{ partial "listing/list-breadcrumb.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<main>
+	
+
+	{{- with .Title }}
+	<h1>{{ .  }}</h1>
+	{{- end }}
+	<article>
+	{{- with .Content }}
+		{{ . }}
+	{{- end }}
+
+	<h2>Documents</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Date</th>
+			</tr>
+		</thead>
+		{{ partial "listing/parent-link.html" . }}
+		{{ partial "listing/sections.html" . }}
+		{{ partial "listing/articles.html" . }}
+	</table>
+	{{ .Scratch.Set "tag" "search-engine" }}
+	<h2>Recent Posts in 🏷️ <a href="/tags/search-engine">search-engine</a></h2>
+
+	{{ partial "blog-posts.html" . }}
+</main>
+{{ end }}

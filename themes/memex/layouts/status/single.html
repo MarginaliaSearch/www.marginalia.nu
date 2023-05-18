@@ -1,0 +1,23 @@
+{{ define "header" }}
+  {{ partial "post/post-breadcrumb.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<main> 
+	<h1>{{.Date.Format "2006-01-02" }}: {{ .Title  }}</h1>
+	
+	<article>
+	{{ $resolved := (eq "resolved" (index .Params "state")) }}
+
+	{{ if $resolved }} 
+	This issue has been resolved!
+	<s> {{end}}
+	{{- with .Content }}
+		{{ . }}
+	{{- end }}
+	
+	{{ if $resolved }} </s> {{end}}
+	
+	</article>
+</main>
+{{ end }}

@@ -1,9 +1,0 @@
-name = "Memex"
-license = "GPLv2"
-description = "memex.marginalia.nu"
-homepage = "https://memex.marginalia.nu/"
-demosite = "https://memex.marginalia.nu/"
-
-[author]
-  name = "Viktor Lofgren"
-  homepage = "https://memex.marginalia.nu/"

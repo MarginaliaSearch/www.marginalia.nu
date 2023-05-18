@@ -1,10 +1,7 @@
 {{ range .Sections }}
 <tr>
-    {{ $icon := index .Params "section-icon" }}
-    
     <td>
-    {{ $icon  | default "📁" }}
-    <a href="{{.Permalink}}">{{ .Title }}/</a>
+        {{ partial "section/icon.html" . }} <a href="{{.Permalink}}"> {{ .Title }}/</a>
     </td>
     {{ range first 1 .Pages }}
     <td><date>{{.Date.Format "2006-01-02"}}</date></td>

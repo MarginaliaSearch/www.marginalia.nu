@@ -5,7 +5,7 @@ section = "blog"
 aliases = ["/log/78-on-ai-veganism.gmi"]
 draft = false
 categories = []
-tags = ["programming", "platforms"]
+tags = ["programming", "platforms", "ai"]
 +++
 
 

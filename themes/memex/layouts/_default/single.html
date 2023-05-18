@@ -1,3 +1,4 @@
+
 {{ define "main" }}
 <main>
 <h1>{{ .Title }}</h1>
@@ -10,11 +11,45 @@
 	<div id="content">
 		{{ .Content }}
 	</div>
+
+	<nav>
+		<p></p>
+		<table>
+			{{ with .PrevInSection }}
+			<tr><th colspan=2>Previous:</th></tr>
+			<tr><td><a href="{{.RelPermalink}}">{{ .Title }}</td><td>{{.Date.Format "2006-01-02" }}</td></tr>
+			{{end}}
+			{{ with .NextInSection }}
+			<tr><th colspan=2>Next:</th></tr>
+			<tr><td><a href="{{.RelPermalink}}">{{ .Title }}</td><td>{{.Date.Format "2006-01-02" }}</td></tr>
+			{{end}}
+		</table>
+	  </nav>
+	  </main>
+	  
 </article>
-</main>
 {{ end }}
 
 {{ define "header" }}
   {{ partial "post/post-breadcrumb.html" . }}
 {{ end }}
 
+{{ define "scripts"}}
+{{if index .Params "mathjax"}}
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!-- this part configures it -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+{{end}}
+{{ end }}

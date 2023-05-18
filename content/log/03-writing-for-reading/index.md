@@ -25,13 +25,13 @@ Most important of all: If you exercise restraint with these techniques, and rese
 
 The fact that you often have ads or other distracting elements surrounding or indeed within the lines of text doesn't help either, often specifically designed to draw the reader's attention away from reading. What I wanted to show is that the ads aren't the only problem even if they may be at the other end of the rope in this pointless tug-of-war for the reader's attention.
 
-* [Here is a screenshot form the documentation for git-rebase](/pics/links/git-rebase.png)
+{{< figure src="git-rebase.png" caption="A screenshot form the documentation for git-rebase">}}
 
 The heading I don't have a problem with even though it's a different color, but I count eight different points of emphasis in those two paragraphs. Undoubtedly well-meaning, but it's hard to do anything but skim text such as that. It's especially unfortunate since rebase is one of those concepts that people really seem to struggle with when learning git.
 
 The subject matter itself is hard to read too, even in the plainest of man page renderings, no amount of typography can help remedy git's leaky abstractions (or lack of abstractions).
 
-* [This is a screenshot from MDN's documentation for Accept-Post](/pics/links/accept_post.png)
+{{< figure src="accept_post.png" caption="A screenshot from MDN's documentation for Accept-Post">}}
 
 Again it has more points of emphasis than it has lines, and most of the things it emphasises would have been emphasised even without changes in color or font. Words like Accept-Post and HTTP do already stick out, because they are capitalized differently. The effect, when reading the text is skimming. The reader's eyes are probably going to bounce between Accept-Post, HTTP, media types, Accept-Post, POST, POST, 415 Unsupported Media Type and finally Accept-Post; with zero comprehension of what those paragraphs actually conveyed.
 

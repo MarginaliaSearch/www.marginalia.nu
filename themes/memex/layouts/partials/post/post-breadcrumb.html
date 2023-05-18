@@ -1,17 +1,20 @@
 <nav id="breadcrumb" aria-label="breadcrumb">
 <ul>
     <li>
-        <a href="/">🏘️ Marginalia</a>
+        {{ partial "home/icon.html" . }}
+         <a href="/">Marginalia</a>
     </li>
     
     {{ if .CurrentSection.Parent }}
     <li>
-        <a href="{{ .CurrentSection.Permalink }}">📁 {{ .CurrentSection.LinkTitle }}</a>
+        {{ partial "section/icon.html" .CurrentSection }} 
+        <a href="{{ .CurrentSection.Permalink }}"> {{ .CurrentSection.LinkTitle }}</a>
     </li>
     {{ end }}
 
     <li class="active">
-        <a href="{{ .Permalink }}">📄 {{ .LinkTitle }}</a>
+        {{ partial "post/icon.html" . }}
+        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
     </li>
 </ul>
 </nav>

@@ -2,6 +2,10 @@
   {{ partial "listing/list-breadcrumb.html" . }}
 {{ end }}
 
+{{define "rss" }}
+     <link rel="alternate" type="application/rss+xml" title="RSS Feed For Marginalia.nu" href="/index.xml" />
+{{end}}
+
 {{ define "main" }}
 <main>
 	

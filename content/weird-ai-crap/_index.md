@@ -1,5 +1,6 @@
 ---
 title: "Weird AI Crap"
+section-icon: "🤖"
 ---
 
 Ever since AI started getting slightly more capable, weird glitchy AI-generated crap has started cropping up online. I collect these for amusement.

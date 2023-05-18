@@ -5,6 +5,7 @@ section = "blog"
 aliases = ["/log/69-creepy-website-similarity.gmi"]
 draft = false
 categories = []
+mathjax = 1
 tags = ["search-engine", "programming"]
 +++
 
@@ -33,11 +34,8 @@ In practice, cosine similarity is used to compare the similarity between website
 
 Cosine similarity is calculated by taking the inner product of two vectors and dividing by their norms
 
-```
-       a x b
-  p = --------- 
-      |a| |b|
-```
+$$p = \frac { a \cdot b } { |a| |b| }$$
+
 
 As you might remember from linear algebra, this is a measure of how much two vectors "pull in the same direction". The cosine similarity of two identical vectors is unity, and for orthogonal vectors it is zero.
 
@@ -45,14 +43,13 @@ This data has extremely high dimensionality, the vector space consists of nearly
 
 Since the vectors in questions are just bitmaps, either a website has a link or it does not, the vector product can be simplified to a logical AND operation. The first stab at the problem was to use RoaringBitmaps.
 
-```
-    double cosineSimilarity(RoaringBitmap a, RoaringBitmap b) {
-        double andCardinality = RoaringBitmap.andCardinality(a, b);
-        andCardinality /= Math.sqrt(a.getCardinality());
-        andCardinality /= Math.sqrt(b.getCardinality());
-        return andCardinality;
-    }
-
+```java
+double cosineSimilarity(RoaringBitmap a, RoaringBitmap b) {
+  double andCardinality = RoaringBitmap.andCardinality(a, b);
+  andCardinality /= Math.sqrt(a.getCardinality());
+  andCardinality /= Math.sqrt(b.getCardinality());
+  return andCardinality;
+}
 ```
 
 This works but it's just a bit too slow to be practical. Sacrificing some memory for speed turns out to be necessary. Roaring Bitmaps are memory efficient, but a general purpose library. It's easy to create a drop-in replacement that implements only andCardinality() and getCardinality() in a way that caters to the specifics of the data. 
@@ -61,32 +58,33 @@ A simple 64 bit bloom filter makes it possible to short-circuit a lot of the cal
 
 The actual code rewritten for brevity, as a sketch the and-cardinality calculation looks like this, and performs about 5-20x faster than RoaringBitmaps for this specfic use case:
 
-```
+```java
+int andCardinality(AndCardIntSet a, AndCardIntSet b) {
 
-    int andCardinality(AndCardIntSet a, AndCardIntSet b) {
+    if ((a.hash & b.hash) == 0) {
+        return 0;
+    }
 
-        if ((a.hash & b.hash) == 0) {
-            return 0;
+    int i = 0, j = 0;
+    int card = 0;
+
+    do {
+        int diff = a.backingList.getQuick(i) 
+                 - b.backingList.getQuick(j);
+
+        if (diff < 0) i++;
+        else if (diff > 0) j++;
+        else {
+            i++;
+            j++;
+            card++;
         }
+    } while (i < a.getCardinality() 
+          && j < b.getCardinality());
 
-        int i = 0, j = 0;
-        int card = 0;
+    return card;
 
-        do {
-            int diff = a.backingList.getQuick(i) - b.backingList.getQuick(j);
-
-            if (diff < 0) i++;
-            else if (diff > 0) j++;
-            else {
-                i++;
-                j++;
-                card++;
-            }
-        } while (i < a.getCardinality() && j < b.getCardinality());
-
-        return card;
-        
-     }
+}
 
 ```
 

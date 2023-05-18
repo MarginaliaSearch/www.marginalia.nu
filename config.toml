@@ -3,11 +3,14 @@ languageCode = 'en-us'
 title = 'marginalia.nu'
 theme = 'memex'
 
-
 sectionPagesMenu = 'main'
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[minify]
+  minifyOutput = true
+
 [taxonomies]
   category = 'categories'
   series = 'series'

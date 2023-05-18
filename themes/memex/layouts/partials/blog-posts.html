@@ -1,0 +1,13 @@
+{{ $tags := (index .Site.Taxonomies "tags")  }}
+{{ $focusTag := .Scratch.Get "tag"}}
+{{ range (first 15 (index $tags $focusTag )) }}
+    {{ if eq .Section "log"}} 
+    <h4>
+        {{.Date.Format "2006-01-02"}} 
+        <a href="{{.Permalink}}">
+        <span class="status-state-{{ index .Params "state" }}">{{ .Title }}</span>
+        </a>
+    </h4>
+    {{ .Summary }}
+    {{ end }}
+{{ end }}

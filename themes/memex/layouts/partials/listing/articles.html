@@ -2,7 +2,9 @@
 <tr>
     {{ $distinguished := index .Params "distinguished" }}
     
-    <td>📄 <a href="{{.Permalink}}">{{ .Title }}</a>
+    <td>
+        {{ partial "post/icon.html" . }}
+        <a href="{{.Permalink}}">{{ .Title }}</a>
     {{ if $distinguished }}
         <span class="distinguished">⭐</span>
     {{ end }}

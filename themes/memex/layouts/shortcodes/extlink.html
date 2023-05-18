@@ -1,0 +1,5 @@
+{{ if .Get 1 }}
+<span title="external link">🌎</span>&nbsp;<a rel="nofollow" href="{{ .Get 0 }}">{{ .Get 1 }}</a>
+{{ else }}
+<span title="external link">🌎</span>&nbsp;<a rel="nofollow"  href="{{ .Get 0 }}">{{ .Get 0 }}</a>
+{{ end }}

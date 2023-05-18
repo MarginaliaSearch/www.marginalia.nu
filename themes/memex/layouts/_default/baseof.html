@@ -2,8 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-
-    
+    {{block "rss" .}}
+     <link rel="alternate" type="application/rss+xml" title="RSS Feed For {{.RelPermalink}}" href="index.xml" />
+     <link rel="alternate" type="application/rss+xml" title="RSS Feed For Marginalia.nu" href="/index.xml" />
+    {{end}}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -18,6 +20,9 @@
 	{{- if .Site.Params.schema }} {{ template "_internal/schema.html" . }} {{- end }}
 	{{- if .Site.Params.twitter_cards }} {{ template "_internal/twitter_cards.html" . }} {{- end }}
     <title>{{ block "title" . }}
+      {{ with .Title }}
+        {{ . }} @ 
+      {{ end }}
       {{ .Site.Title }}
     {{ end }}</title>
   </head>
@@ -32,4 +37,6 @@
     {{ partial "footer.html" . }}
     {{ end }}
   </body>
+  {{block "scripts" .}}
+  {{end}}
 </html>

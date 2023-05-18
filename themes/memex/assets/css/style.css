@@ -4,19 +4,21 @@
     --bg-alt: #fff;
     --bg-muted: #444;
     --fg-muted: #fff;
-    --link-fg: #000;
+    --link-fg: #017;
+    --link-fg-visited: #000;
     --link-focus-fg: #fff;
-    --link-focus-bg: #000;
+    --link-focus-bg: #000; 
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #444;
+    --bg: #444; 
     --fg: #c8c8c8;
     --bg-alt: #222;
     --fg-muted: #fff;
-    --bg-muted: #222;
-    --link-fg: #fff;
+    --bg-muted: #222; 
+    --link-fg: #fff; 
+    --link-fg-visited: #cef; 
     --link-focus-fg: #000;
     --link-focus-bg: #fff;
   }
@@ -55,7 +57,9 @@ body {
 a { 
   color: var(--link-fg);
 }
-
+a:visited { 
+  color: var(--link-fg-visited);
+}
 a:focus {
   color: var(--link-focus-fg) !important;
   background-color: var(--link-focus-bg) !important;
@@ -176,7 +180,7 @@ footer #footer-text {
   width: 80%;
   color: var(--fg-muted);
 }
-footer a {
+footer a, footer a:visited {
   color: var(--fg-muted);
 }
 
