@@ -43,7 +43,7 @@ Object o;
 long   L;
 ```
 
-**I primarily use Python's REPL is my calculator app**
+**My main use of Python is as a calculator app**
 
 It's like `bc` but better.
 
