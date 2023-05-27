@@ -1,0 +1,35 @@
+{{ define "header" }}
+  {{ partial "listing/list-breadcrumb.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<main>
+	
+	{{- with .Title }}
+	<h1>{{ .  }}</h1>
+	{{- end }}
+
+	<article>
+	{{- with .Content }}
+		{{ . }}
+	{{- end }}
+	</article>
+
+	
+	{{ range .RegularPages }}
+	<h1>{{.Title}}</h1>
+	<article class="post">
+	
+		<div class="meta">
+			Posted: {{.Date.Format "2006-01-02" }}
+			{{ partial "post/post-tag-list.html" . }}
+		</div>
+		
+		<div class="content">
+			
+			{{ .Content }}
+		</div>
+	</article>
+	{{ end}}
+</main>
+{{ end }}
