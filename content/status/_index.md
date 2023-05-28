@@ -9,13 +9,11 @@ If this page reports the server as up, try revisiting [https://search.marginalia
 If it still does not work, please reach me at kontakt@marginalia.nu or @MarginaliaNu on twitter.
 
 <hr>
-<!--
 Current known issues:<br>
 <ul>
-  <li> Year based queries are not working </li>
-  <li> The 'vintage' and 'blog' profiles are broken. </li>
   <li> Some queries are a bit slower than expected. </li>
 </ul>
+<!--
 Patches:
 <ul>
   <li>(2023-04-13) Patch 1: Disable Web 1.0 filter and temporarily disable blog profile's recency bias, as a work around

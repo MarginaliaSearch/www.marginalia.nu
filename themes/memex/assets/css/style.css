@@ -235,6 +235,9 @@ color: var(--fg-muted);
   }
 }
 @media (max-width: 640px) {
+  p {
+    text-align: left;
+  }
   body {
     font-size: 14pt;
   }
