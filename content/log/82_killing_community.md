@@ -5,7 +5,9 @@ tags:
 - 'platforms'
 ---
 
-This is a theory that's previously been stated in [log/39-normie-hypothesis.gmi](/log/39-normie-hypothesis.gmi), but I think it's worth expanding on as it's become more relevant with the recent Reddit shit-show actualizing just how bad that website has gotten along with social media in general.
+This is a theory that's previously been stated in [log/39-normie-hypothesis.gmi](/log/39-normie-hypothesis.gmi), but I think it's worth expanding on as it's become very relevant with the recent Reddit shit-show actualizing just how bad that website has gotten along with social media in general.
+
+I think the model demonstrate how the 'enshittification' process is an inevitability with any social media that is run on a venture capital model. 
 
 An online community can be like a village, where you have familiar faces, collective experiences, shared values and so forth.  It can be like a village and be five people, it can be like a village and be a thousand people.  
 
@@ -27,19 +29,17 @@ It's an oppressive, alienating, and disempowering environment.
 
 You're *in* a train station, you're not part of it.  There's nothing you can do to improve it.  Values are replaced by laws. Laws are enforced through a rigid structure of guards and uniforms, and the particularities and nuances of the situation don't matter.  If someone is subjectively being a jerk, you can't really do anything about it.  You just have to put up with it.
 
-Now consider running a social media site like a start-up, with quarterly growth targets.  If you want to absolutely destroy a social media site that is all about building communities and meeting new people, then aim for them to always be growing as much as possible.  Make that a design goal of the site.  Pump those subscriber numbers up across the board.
+Now consider running a social media site like a start-up, with quarterly growth targets, with investors to impress and eyes on an eventual IPO.  
+
+If you want to absolutely destroy a website that is all about building communities and meeting new people, then aim for the site and all communities to always be growing as much as possible.  Make that a design goal of the site.  Pump those subscriber numbers up.
 
 What you'll get is a place where everyone is a stranger, where being a jerk is the norm, where there is no sense of belonging,
 where civility and arguing in good faith is irrelevant because you're not talking *to someone*, you're performing in front of an audience to make the number next to your comment go up so you can briefly feel something that almost resembles belonging and shared values.  
 
 Terminally online and starving for human connection, you're left clinging on to this artificial sense of belonging like Harlow's monkeys to their wire-mesh mothers.  It will never be real, but it's all you have.
 
-The only sense of belonging you can find is through tribalism, deep trenches are dug along the fault-lines of the most superficial differences because that's all there is to see.  People aren't really people, they're reduced to an opinion you can't tolerate, or a flavor of potato chips you can't stand, maybe a starter pokemon you think is lame. 
+The only sense of belonging you can find is through tribalism, deep trenches are dug along the fault-lines of the most superficial differences because that's all there is to see.  Nuance requires lasting relationships.  People aren't really people, they're reduced to an opinion you can't tolerate, or a flavor of potato chips you can't stand, a starter pokemon you think is lame. 
 
-I don't think active members of Reddit and the like are actually quite seeing just how bad it's gotten.  I left several years ago. It just wasn't the same site I joined a decade earlier, and that's after years of reducing my participation to increasingly obscure niche communities that retained some sense of being a village.
+Ironically, according to the model proposed earlier, the best thing that could happen to Reddit, in terms of the website not being shit from a community perpective, is that it stops growing, maybe even shrinks a bit.  This will let communities stabilize and become more like villages again, and the site will be better for it.
 
-Every time I've looked back since, especially the mainstream subreddits, every time it's even worse.  Holy crap.
-
-Ironically, according to the model proposed earlier, the best thing that could happen to Reddit, from a community perpective, is that it stops growing, maybe even shrinks a bit.  This will let communities stabilize and become more like villages again, and the site will be better for it.
-
-Of course this is a real predicament from business sense, with eyes on an IPO and all that.  The only way to make money is to grow, and the only way to grow is to kill the community, and if you do that, who the heck will want to be a redditor?  
+Of course this is a real predicament from business sense, with the looming IPO and all that.  The only way to make money is to grow, and the only way to grow is to kill the community.
