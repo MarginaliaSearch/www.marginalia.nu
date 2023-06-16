@@ -1,6 +1,6 @@
 ---
 title: "Full Time"
-date: 2023-06-12
+date: 2023-06-16
 tags:
 - "nlnet"
 - "search-engine"
