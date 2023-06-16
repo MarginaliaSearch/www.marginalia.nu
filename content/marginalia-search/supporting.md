@@ -14,9 +14,9 @@ I'm just one guy building all of this on my own. I'd like to expand the search e
 I'm paying most of the work out of my own pocket but that only goes so far.  To this end I have a few donation links. Every last bit helps and even a modest contribution is greatly appreciated and will lengthen the time I'm able to work
 like this.
 
-* [https://www.patreon.com/marginalia_nu](patreon)
+* [patreon](https://www.patreon.com/marginalia_nu)
 
-* [https://www.buymeacoffee.com/marginalia.nu](buymeacoffee)
+* [buymeacoffee](https://www.buymeacoffee.com/marginalia.nu)
 
 You can also just send me an email at kontakt@marginalia.nu and we can discuss other alternatives. 
 
