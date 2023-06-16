@@ -11,11 +11,12 @@ tags = ["search-engine"]
 
 I'm just one guy building all of this on my own. I'd like to expand the search engine and make it more useful.  My hope is that it will bring value to its users and enable a thriving independent Internet. 
 
-I'm paying most of the work out of my own pocket but that only goes so far.  To this end I have a few donation links. Every last bit helps and even a modest contribution is greatly appreciated.
+I'm paying most of the work out of my own pocket but that only goes so far.  To this end I have a few donation links. Every last bit helps and even a modest contribution is greatly appreciated and will lengthen the time I'm able to work
+like this.
 
-* [https://www.patreon.com/marginalia_nu](https://www.patreon.com/marginalia_nu)
+* [https://www.patreon.com/marginalia_nu](patreon)
 
-* [https://www.buymeacoffee.com/marginalia.nu](https://www.buymeacoffee.com/marginalia.nu)
+* [https://www.buymeacoffee.com/marginalia.nu](buymeacoffee)
 
 You can also just send me an email at kontakt@marginalia.nu and we can discuss other alternatives. 
 
