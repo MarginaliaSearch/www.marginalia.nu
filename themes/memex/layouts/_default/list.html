@@ -10,18 +10,26 @@
 	<section id="list-content">
 	{{ .Content }}
 	</section>
+	
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Date</th>
+			</tr>
+		</thead>
+		{{ partial "listing/parent-link.html" . }}
+		{{ partial "listing/sections.html" . }}
+		{{ partial "listing/articles.html" . }}
+	</table>
 
-		<table>
-			<thead>
-				<tr>
-					<th>Name</th>
-					<th>Date</th>
-				</tr>
-			</thead>
-			{{ partial "listing/parent-link.html" . }}
-			{{ partial "listing/sections.html" . }}
-			{{ partial "listing/articles.html" . }}
-		</table>
+	<section>
+		<p>
+		To stay up to date, there is a nifty <span>📡 <a href="index.xml"> RSS Feed</a>
+		for this section of this website.
+		</p>
+	</section>
+	
 	</article>
 </main>
 {{ end }}
