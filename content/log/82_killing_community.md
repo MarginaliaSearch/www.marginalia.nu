@@ -1,6 +1,7 @@
 ---
 title: 'Killing Community'
 date: 2023-06-11
+distinguished: 1
 tags:
 - 'platforms'
 ---
@@ -13,7 +14,7 @@ An online community can be like a village, where you have familiar faces, collec
 
 In this context, the defining trait of a village is that it's group of people where the average interaction over time is with people you've seen before.
 
-A village is a precious thing.  Many people go online to find a sense of belonging and community, and in the right circumstances, they can find it while they may struggle to do so offline.  This is one of the great things about the Internet.  It's so large that no matter how weird and unconventional you are, there's always more poeple just like you.
+A village is a precious thing.  Many people go online to find a sense of belonging and community, and in the right circumstances, they can find it while they may struggle to do so offline.  This is one of the great things about the Internet.  It's so large that no matter how weird and unconventional you are, there's always more people just like you.
 
 Because they are precious, it's important to understand what makes a village a village, and what kills the village.
 
@@ -40,6 +41,10 @@ Terminally online and starving for human connection, you're left clinging on to 
 
 The only sense of belonging you can find is through tribalism, deep trenches are dug along the fault-lines of the most superficial differences because that's all there is to see.  Nuance requires lasting relationships.  People aren't really people, they're reduced to an opinion you can't tolerate, or a flavor of potato chips you can't stand, a starter pokemon you think is lame. 
 
-Ironically, according to the model proposed earlier, the best thing that could happen to Reddit, in terms of the website not being shit from a community perpective, is that it stops growing, maybe even shrinks a bit.  This will let communities stabilize and become more like villages again, and the site will be better for it.
+Ironically, according to the model proposed earlier, the best thing that could happen to Reddit, in terms of the website not being shit from a community perspective, is that it stops growing, maybe even shrinks a bit.  This will let communities stabilize and become more like villages again, and the site will be better for it.
 
 Of course this is a real predicament from business sense, with the looming IPO and all that.  The only way to make money is to grow, and the only way to grow is to kill the community.
+
+## Comments
+
+This essay took off into low earth orbit, and was discussed extensively on [Hacker News](https://news.ycombinator.com/item?id=36296882) and other places. 
