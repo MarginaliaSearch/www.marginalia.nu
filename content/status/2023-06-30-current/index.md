@@ -1,8 +1,8 @@
 ---
-date: 2023-05-28
+date: 2023-06-30
 title: "The Search Engine Is Up"
 state: "ongoing-good"
-draft: false
+norss: true
 ---
 
 All work is finished and the search engine is back up.
