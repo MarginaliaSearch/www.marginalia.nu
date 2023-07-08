@@ -20,6 +20,7 @@ categories = ["links"]
 * [https://nullprogram.com/](https://nullprogram.com/)
 * [https://www.atarimagazines.com/](https://www.atarimagazines.com/)
 * [https://www.righto.com/](https://www.righto.com/)
+* [https://surma.dev/](https://surma.dev/)
 
 ## Humanities
 
