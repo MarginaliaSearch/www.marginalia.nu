@@ -120,7 +120,7 @@ td {
   text-align: center;
 }
 
-td:first-of-type {
+.listing td:first-of-type {
   width: 100%;
 }
 
