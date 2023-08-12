@@ -59,12 +59,12 @@ and they generally tend to bit more than what I had in mind.
 
 The purpose of the message queue we're interested in is to provide a robust and replayable 
 way for services to communicate with each other, and to provide a way to recover from 
-failures.  With that in mind, we can use a simple SQL database as our backing store,
-with the added benefit of being able to use the database as a transaction journal and
-being able to use familiar tools form the SQL ecosystem to address errors as they occur.
+failures.  
 
-The system does have just the tool though. The ACID properties of SQL databases can do 
-most of the heavy lifting here if we're a bit careful about how we use them. 
+With that in mind, the system does have just the tool though. The ACID properties
+of SQL databases can do most of the heavy lifting here if we're a bit careful about how we 
+use them, with the added benefit of being able to use the database as a transaction journal and
+being able to use familiar tools form the SQL ecosystem to address errors as they occur.
 
 The message queue is designed a single table, here shown in an abbreviated form:
 
