@@ -317,5 +317,4 @@ this 90% done user interface, but it's still a lot better than what came before 
 have a basic GUI for a lot of the things that I was previously doing by hand, sometimes 
 by directly typing SQL-commands into the db client.
 
-The new release should drop in about a week or so.  Hopefully with a bit more polish than
-it has at the moment, we'll see.
+The new release should drop in about a week or so, fingers crossed.
