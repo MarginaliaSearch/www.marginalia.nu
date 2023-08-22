@@ -21,6 +21,7 @@ categories = ["links"]
 * [https://www.atarimagazines.com/](https://www.atarimagazines.com/)
 * [https://www.righto.com/](https://www.righto.com/)
 * [https://surma.dev/](https://surma.dev/)
+* [https://int10h.org/](https://int10h.org/)
 
 ## Humanities
 
