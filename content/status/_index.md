@@ -12,13 +12,5 @@ If it still does not work, please reach me at kontakt@marginalia.nu or @Marginal
 Current known issues:<br>
 <ul>
   <li> Some queries are a bit slower than expected. </li>
+  <li> There are some encoding issues in the titles and descriptions of search results. </li>
 </ul>
-<!--
-Patches:
-<ul>
-  <li>(2023-04-13) Patch 1: Disable Web 1.0 filter and temporarily disable blog profile's recency bias, as a work around
-							for the currently somewhat corrupted document metadata with no usable year-information. </li>
-  <li>(2023-04-15) Patch 2: Fix bug where <tt>tld:</tt> and <tt>links:</tt>-style queries weren't picked up due to
-							how queries were constructed. </li>
-</ul>
--->
