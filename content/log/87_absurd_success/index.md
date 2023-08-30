@@ -172,15 +172,13 @@ Very loosely, the shape of the algorithm was something like this:
   constructIndices(documents, offsetsfile)
 ```
 
-Other than requiring an absurd amount of RAM, there's a subtle problem with this. 
-
 We need a lexicon because of this part.  We're relying on the domain of word ids to be densely packed.
 
 ```java
   long[] counts = new long[highestWordId];
 ```
 
-This part:
+Other than requiring an absurd amount of RAM, there's a subtle farther down in the code.  This part:
 
 ```java
   for each word in each document:
