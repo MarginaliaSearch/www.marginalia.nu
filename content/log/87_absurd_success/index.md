@@ -218,9 +218,9 @@ An abstraction called a `preindex` is introduced, which is basically what was co
 code sample above.  Two arrays, one with wordIds, and one with counts; both indexing a third array
 with document data.
 
-* [reverse-index/.../ReversePreindex](https://github.com/MarginaliaSearch/MarginaliaSearch/blob/master/code/features-index/index-reverse/src/main/java/nu/marginalia/index/construction/ReversePreindex.java)
-* [reverse-index/.../ReversePreindexDocuments](https://github.com/MarginaliaSearch/MarginaliaSearch/blob/master/code/features-index/index-reverse/src/main/java/nu/marginalia/index/construction/ReversePreindexDocuments.java)
-* [reverse-index/.../ReversePreindexWordSegments](https://github.com/MarginaliaSearch/MarginaliaSearch/blob/master/code/features-index/index-reverse/src/main/java/nu/marginalia/index/construction/ReversePreindexWordSegments.java)
+* [index-reverse/.../ReversePreindex](https://github.com/MarginaliaSearch/MarginaliaSearch/blob/master/code/features-index/index-reverse/src/main/java/nu/marginalia/index/construction/ReversePreindex.java)
+* [index-reverse/.../ReversePreindexDocuments](https://github.com/MarginaliaSearch/MarginaliaSearch/blob/master/code/features-index/index-reverse/src/main/java/nu/marginalia/index/construction/ReversePreindexDocuments.java)
+* [index-reverse/.../ReversePreindexWordSegments](https://github.com/MarginaliaSearch/MarginaliaSearch/blob/master/code/features-index/index-reverse/src/main/java/nu/marginalia/index/construction/ReversePreindexWordSegments.java)
 
 ![Preindex](preindex.svg)
 
