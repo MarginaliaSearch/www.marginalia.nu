@@ -178,14 +178,14 @@ We need a lexicon because of this part.  We're relying on the domain of word ids
   long[] counts = new long[highestWordId];
 ```
 
-Other than requiring an absurd amount of RAM, there's a subtle farther down in the code.  This part:
+Other than requiring an absurd amount of RAM, there's a subtle farther down in the code:
 
 ```java
   for each word in each document:
     documents[offsets[word]++] = document
 ```
 
-... writes about a terabyte of data out of order to a memory mapped file.   Since it is almost completely
+This part writes about a terabyte of data out of order to a memory mapped file.   Since it is almost completely
 out of order, most of these changes are constantly being committed to disk. You may have heard
 that SSDs deal with random access much better than mechanical hard drives.  For read access this is largely
 true, for small writes it is not, due to an effect called [write amplification](https://en.wikipedia.org/wiki/Write_amplification).  
