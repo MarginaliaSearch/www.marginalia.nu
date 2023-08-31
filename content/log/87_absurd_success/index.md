@@ -59,9 +59,7 @@ unique within domains, and it is just absurdly large for what it does.
 
 ![An excerpt of the tables involved](olddesign.png)
 
-There's a URL table mostly responsible for assigning an unique numeric ID to each URL,
-and a PAGE_DATA table, where each PAGE_DATA entry contains information such as the title and
-of a link, if we've indexed it.  
+There's a URL table mostly responsible for assigning an unique numeric ID to each URL, and a PAGE_DATA table, where each PAGE_DATA entry contains information such as the title and description of a link, if we've indexed it.  
 
 So what if we smack these two tables together into a single table **sqlite database**, 
 keep the data real simple, make the loader process responsible for generating unique IDs, 
@@ -76,7 +74,7 @@ So, something like this:
 
 ![The new tables](newdesign.png)
 
-We're still softly relating the DOCUMENT and DOMAIN tables acoss databases, but we never actually need to join
+We're still softly relating the DOCUMENT and DOMAIN tables arcoss databases, but we never actually need to join
 the two; in fact in a disaster scenario, the most important bits of the DOMAIN table can be re-constructed from the DOCUMENT table.
 
 I'm glossing over some details...
