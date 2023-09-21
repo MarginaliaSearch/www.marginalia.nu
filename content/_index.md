@@ -7,7 +7,7 @@ You may be looking for one of the following things
 
 🔗 [Search Engine](https://search.marginalia.nu/) \
 🔗 [Encyclopedia](https://encyclopedia.marginalia.nu/) (not mobile-friendly!) \
-🔗 [Website Explorer](https://explore.marginalia.nu/) \
+🔗 [Website Explorer](https://explore.marginalia.nu/)<sup>improved</sup> \
 🔗 [Similar Website Finder](https://explore2.marginalia.nu/) \
 🔗 [Server Status](https://status.marginalia.nu/)
 
