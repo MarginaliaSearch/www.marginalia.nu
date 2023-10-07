@@ -1,6 +1,7 @@
 ---
 title: "Marginalia Search receives FUTO Grant"
 published: 2023-09-15
+distinguished: 1
 tags: 
 - "search engine"
 ---

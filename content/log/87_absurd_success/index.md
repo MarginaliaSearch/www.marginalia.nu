@@ -1,6 +1,7 @@
 ---
 title: 'Absurd Success'
 date: 2023-08-30
+distinguished: 1
 tags:
   - 'search engine'
   - nlnet
