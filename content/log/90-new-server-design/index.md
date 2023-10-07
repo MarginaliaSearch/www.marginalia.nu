@@ -18,15 +18,12 @@ Scandinavia!](https://mullet.se/) (Swedish website).
 
 ![New server](server.jpeg)
 
-So the server's a big beefy one.  The machine moved into a rack just the other week,
-and the process of migration is in progress. 
+So the server's a big beefy one. The machine has 512 GB of RAM and 10x8 plus 2x4 TB SSDs, 
+and the aforementioned dual Epyc 7543s for a whopping 128 logical cores.
 
 Some decisions needed to be made about how to deploy the search engine 
 onto the server.  The software will need some modifications to make 
 good use of the hardware, but that's a later worry. 
-
-In brief, the machine have 512 GB of RAM and 10x8 TB SSDs, plus 2x4 TB SSDs, 
-and the aforementioned dual Epyc 7543s for a whopping 128 logical cores.
 
 ## OS Setup
 
