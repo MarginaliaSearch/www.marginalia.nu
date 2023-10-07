@@ -8,7 +8,7 @@ tags:
 So the search engine is moving to  a new server soon, thanks to the generous grant 
 [mentioned recently](https://www.marginalia.nu/log/88-futo-grant/).
 
-If you're using it now, it may or may not use the old or new server.  It'll be like this for
+If you visit search.marginalia.nu now, it may or may not use the old or new server.  It'll be like this for
 a while, since I need them both for testing and maintenance type work.  
 
 I'll also apologize if this post is a bit chaotic.  It is a reflection of a very chaotic couple of weeks that
