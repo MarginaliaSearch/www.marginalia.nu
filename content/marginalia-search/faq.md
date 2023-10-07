@@ -30,11 +30,12 @@ As such, I couldn't possibly ensure good quality search results in hundreds of l
 
 The software is custom built in Java. I use MariaDB for some ancillary metadata. 
 
-The hardware is a single consumer-grade computer, a Ryzen 3900X with 128 Gb of RAM (without ECC). I snatched one of the few remaining Optane 900Ps and it's backing the database.
+Up until October 2023, the search engine ran on PC hardware on domestic broadband,
+but is being migrated onto a proper server. 
 
 ## How big is the index?
 
-It depends when you ask, but the record is 106,000,000 documents. In terms of disk size, we're talking hundreds of gigabytes.
+It depends when you ask, but the record is 164,000,000 documents. In terms of disk size, we're talking approximately a terabyte.
 
 Index size isn't a particularly good metric. It's good for marketing, but in practice an index with a million documents that are all of high quality is better than an index with a billion documents where only a fraction of them are interesting. Sorting the chaff from the wheat is a much harder problem than just building a huge pile of both.
 
