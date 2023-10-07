@@ -1,9 +1,11 @@
 ---
 title: 'Moving Marginalia to a New Server'
-date: '2023-10-07'
+published: '2023-10-07'
+tags:
+- "search engine"
 ---
 
-So the search is moving to  a new server soon, thanks to the generous grant 
+So the search engine is moving to  a new server soon, thanks to the generous grant 
 [mentioned recently](https://www.marginalia.nu/log/88-futo-grant/).
 
 If you're using it now, it may or may not use the old or new server.  It'll be like this for
