@@ -9,7 +9,11 @@ So the search engine is moving to  a new server soon, thanks to the generous gra
 [mentioned recently](https://www.marginalia.nu/log/88-futo-grant/).
 
 If you're using it now, it may or may not use the old or new server.  It'll be like this for
-a while, since I need them both for testing and maintenance type work. 
+a while, since I need them both for testing and maintenance type work.  
+
+I'll also apologize if this post is a bit chaotic.  It is a reflection of a very chaotic couple of weeks that
+apart from setting up this migration also involved a very short notice invitation for a 
+presentation at [ossym23](https://opensearchfoundation.org/en/events-osf/5th-international-open-search-symposium-ossym2023/). 
 
 This project seems to generate a lot of goodwill from the technologically inclined,
 so when I went to order the server, they sent me an email stating they liked what I was
