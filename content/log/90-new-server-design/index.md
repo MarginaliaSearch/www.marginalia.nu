@@ -148,7 +148,7 @@ a pain to work with 100 GB files than 40 TB ones...
 
 This is all written sort of mid-configuration.  Nothing is quite final. A copy of the search engine 
 is up on the new server, but it's all a bit of a construction space right now.  It's really great to 
-have to servers though, since the old one is still around, if I need some downtime, I can just re-direct 
+have two servers though, since the old one is still around, if I need some downtime, I can just re-direct 
 the DNS to the old IP.
 
 
