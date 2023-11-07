@@ -36,7 +36,12 @@ A brief list of video games I've enjoyed the last few years. Mostly indie games.
 * Dead Cells
 * Vampire Survivors
 
+## King's Field-likes
+
+* Lunacid
+
 ## Strategy
+
 * Factorio
 
 ## VN mystery
