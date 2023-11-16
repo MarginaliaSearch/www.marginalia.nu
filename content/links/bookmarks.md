@@ -83,5 +83,6 @@ categories = ["links"]
 * [https://wiki.xxiivv.com/site/bookmarks.html](https://wiki.xxiivv.com/site/bookmarks.html)
 * [https://hd-dn.com/bookmarks/](https://hd-dn.com/bookmarks/)
 * [https://flamedfury.com/links/](https://flamedfury.com/links/)
+* [https://github.com/jdonland/bookmarks](https://github.com/jdonland/bookmarks)
 
 * [/links/](/links/)
