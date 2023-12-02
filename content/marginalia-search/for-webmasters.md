@@ -18,7 +18,7 @@ Telling me lets me fix whatever problem there is much faster, and if you are exp
 
 ```
 User-Agent: search.marginalia.nu
-IP address: 81.170.128.21
+IP address: 81.170.128.21, 193.183.0.162-174
 ```
 
 ## robots.txt
