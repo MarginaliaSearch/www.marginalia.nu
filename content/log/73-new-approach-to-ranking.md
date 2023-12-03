@@ -18,7 +18,7 @@ The performance of PageRank has been deteriorating for decades and it's to a poi
 
 This new approach seems remarkably resistant to existing pagerank manipulation techniques. Given a preference-vector, it stays "on topic" remarkably well. 
 
-* [Explore Sample Data](https://www.marginalia.nu/domains/)
+* ~~Explore Sample Data~~ [Dead Link: Use Wayback Machine](https://web.archive.org/web/20230217165734/https://www.marginalia.nu/domains/)
 
 ## See Also
 
