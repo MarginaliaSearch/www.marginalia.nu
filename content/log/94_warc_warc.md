@@ -30,7 +30,7 @@ fact.
 I probably could have rolled my own WARC library to avoid some of this work, but I'm not sure
 the juice is worth the squeeze.  It works well enough for now.
 
-This change has been somewhat frought with gotchas, since the needs for a web archiving project,
+This change has been somewhat fraught with gotchas, since the needs for a web archiving project,
 and the needs of a search engine crawler isn't always 100% exactly the same, so some minor extensions 
 were necessary.   The WARC standard seems to have been drafted with the insight that this is likely 
 going to be a common scenario, and is requires that processing software ignores records it doesn't 
@@ -53,7 +53,7 @@ the JSON parser's default buffer sizes are very inadequate.  It can't really sca
 the string before allocating the buffer either, since this is a compressed data stream!
 
 So instead of storing the data as WARC, I opted to go for parquet.  Parquet is great for most 
-cases when you have relatively homogenous data.  In terms of size on disk there is no real 
+cases when you have relatively homogeneous data.  In terms of size on disk there is no real 
 difference, but access speeds are much improved.
 
 A point of potential concern is that this change increases the amount of crawler disk I/O a fair bit, 
@@ -70,9 +70,9 @@ This has improved quite a lot... with one notable exception.
 The old JSON format is still needed to provide a path of migration, because previous crawls are consulted 
 when re-crawling a domain (for ETags etc.), which puts the temporarily at a sort of awkward point where 
 it needs to support both the legacy JSON format, WARC, and the new parquet format for crawled document data. 
-All  of these are fairly hetrogenous so a fair bit of shimming is necessary to support each representation.  
+All  of these are fairly heterogeneous so a fair bit of shimming is necessary to support each representation.  
 
-This will resolve itself after the next round of crawling, slated to start mid January sometimes,
+This will resolve itself after the next round of crawling, slated to start mid January sometime,
 after which the legacy format can be scrapped altogether.  The next crawl will also be a bit of a 
 shakedown round for these changes.  You can build tests and run limited crawls on www.marginalia.nu, 
 but experience tells me that nothing quite compares to production when it comes to discovering 
