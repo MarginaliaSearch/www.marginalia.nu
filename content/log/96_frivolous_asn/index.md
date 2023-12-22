@@ -1,6 +1,8 @@
 ---
 title: 'A Frivolous Feature'
 date: 2023-12-22
+tags:
+- 'search-engine'
 ---
 
 Marginalia Search very recently gained the ability to filter results by Autonomous System,
