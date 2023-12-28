@@ -63,7 +63,7 @@ I also posted asking stupid questions about C in broken English a few times on `
 These used to show up in search engines, but I guess no search engine indexes usenet archives anymore.
 
 In this time I think I was very fascinated with piercing the veil and discovering more about how technology worked.  Being able to 
-tell the terminal to stuff like move the cursor by outputting secret sequences of characters was so up my alley.
+tell the terminal to do stuff like move the cursor by outputting secret sequences of characters was so up my alley.
 
 ## ? A BASIC interpreter (?C?) ?
 
