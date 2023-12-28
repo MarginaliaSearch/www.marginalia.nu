@@ -163,8 +163,8 @@ applications in fintech most of the 2010s.
 
 ## Gamedev stuff [C++/SDL; 2014-2015]
 
-I did a bunch of gamedev projects.  I was mostly interested in figuring out how games work, so I built the engine myself.  Below is a video from when I playing with 
-Commander Keen-style.
+I did a bunch of gamedev projects.  I was mostly interested in figuring out how games work, so I built the engine myself.  Below is a video from when I was playing with a
+Commander Keen-style game.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/75khszlpHY8?si=9YgRva77Fo1voqSH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
