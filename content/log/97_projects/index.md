@@ -6,7 +6,7 @@ tags: 'programming'
 
 This is a bit of a retrospective of every project I've worked on, as far as I remember them. I've tried to unearth any artifacts that remain.
 
-From everything is flattering and resounding success, but then again, maybe that's good.  There are definitely patterns in the things that 
+Far from everything is flattering and resounding success, but then again, maybe that's good.  There are definitely patterns in the things that 
 didn't pan out.
 
 # Earliest Traces
