@@ -25,7 +25,6 @@ I feel that's a shame, because they are pretty cool and deserve visitors.
 * [http://www.ranum.com/security/computer_security/editorials/dumb/feynman.html](http://www.ranum.com/security/computer_security/editorials/dumb/feynman.html)
 * [http://www.silverscreentest.com/koala/eucalyptus/february05.htm](http://www.silverscreentest.com/koala/eucalyptus/february05.htm)
 * [http://www.dreamart.us/Dante.htm](http://www.dreamart.us/Dante.htm)
-* [http://www.harveyhouses.net/](http://www.harveyhouses.net/)
 * [http://www.oceanstar.com/](http://www.oceanstar.com/)
 * [http://www.marksmart.net/randommusic/IMS/IMSText.php](http://www.marksmart.net/randommusic/IMS/IMSText.php)
 * [http://hyperreal.org/~mpesce/](http://hyperreal.org/~mpesce/)
