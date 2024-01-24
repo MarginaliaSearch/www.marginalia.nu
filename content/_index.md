@@ -18,5 +18,7 @@ a page that looks completely different, that's just how things are.
 
 🌎 [Marginalia Search on GitHub](https://git.marginalia.nu/) \
 🦤 [@MarginaliaNu on Twitter](https://twitter.com/MarginaliaNu) \
+🦤 [@marginalia@mastodon.social](https://mastodon.social/@marginalia) \
 📺 [@ViktorLofgren on YouTube](https://www.youtube.com/@ViktorLofgren) \
 ✉️ [kontakt@marginalia.nu on Email](mailto:kontakt@marginalia.nu)
+
