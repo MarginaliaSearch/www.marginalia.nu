@@ -24,6 +24,7 @@ A brief list of video games I've enjoyed the last few years. Mostly indie games.
 * Legend of Grimrock II
 * Yuppie Psycho
 * Heaven's Vault
+* Chants of Sennaar
 
 ## Vanias
 

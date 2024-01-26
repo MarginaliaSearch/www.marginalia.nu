@@ -42,6 +42,11 @@ body {
   margin-right: auto;
 }
 
+figure > img {
+  box-shadow: 0.25em 0.25em 0.25em #eee;
+  border: 1px solid #eee;
+}
+
 .status-state-resolved {
   text-decoration: line-through;
 }
