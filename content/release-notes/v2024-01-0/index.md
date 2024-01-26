@@ -1,6 +1,8 @@
 ---
 title: "Release Notes v2024.01.0"
 published: "2024-01-24"
+aliases:
+- "/release-notes/v2024-12-0"
 tags:
 - "search engine"
 - "nlnet"
