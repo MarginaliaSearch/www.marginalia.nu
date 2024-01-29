@@ -1,5 +1,5 @@
 ---
-title: 'Charlatans spreading misleading beginner advice are the evolutionary crabs of youtube content'
+title: 'Charlatans spreading misleading beginner advice are the evolutionary crabs of youtube content creators'
 date: '2024-01-29'
 tags:
 - satire
