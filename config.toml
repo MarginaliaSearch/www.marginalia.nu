@@ -2,8 +2,10 @@ baseURL = 'https://www.marginalia.nu/'
 languageCode = 'en-us'
 title = 'marginalia.nu'
 theme = 'memex'
-
 sectionPagesMenu = 'main'
+
+defaultContentLanguage = 'en'
+[languages.en]
 
 [markup.goldmark.renderer]
   unsafe = true
