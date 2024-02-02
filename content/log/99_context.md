@@ -10,9 +10,9 @@ I get significantly more work done when I unplug my computer from the Internet. 
 
 Despite many of the tools that I use requiring a connection, and certainly the Internet containing a wealth of information that might expedite my work, these benefits are drastically outweighed by the wealth of distractions also available.
 
-It's very appealing, when the code is compiling or the docker containers restarting, to sneak open a browser tab with hacker news, or the &Chi; formerly known as Twitter, youtube, or something else to pass those minutes.
+It's very appealing, when the code is compiling or the docker containers restarting, to sneak open a browser tab with hacker news, or the &Chi; formerly known as Twitter, youtube, mastodon, a news site, or something similar to pass those minutes.
 
-This ruins focus, drains energy, and overall just eats a lot of time.  It's easy to find an hour has passed and you haven't really done... anything.  Or an afternoon, heck even a weekend.
+This ruins focus, drains energy, and overall just eats a lot of time.  It's easy to find an hour has passed, and you haven't really done... anything.  Or an afternoon, heck even a weekend.
 
 Unplugging completely is a drastic action that unfortunately doesn't tend to stick.  Absolutely everything chafes when you unplug.  It's just too appealing to just leave the wire plugged in just this once, realize how much easier life becomes, and then to fall back into old habits.  Attempting to solve smartphone procrastination by switching to a dumb phone has similar properties.  These things increase the friction to do perfectly reasonable everyday tasks, and as a result, push you back into the bad habits you were trying to escape.
 
@@ -37,3 +37,15 @@ The point is to drive up the friction to context-switch, while retaining the eas
 After test-driving this for a few days, I think it's working pretty well.  It's definitely much less annoying than unplugging completely.  There's no sense of struggle against the settings.
 
 It would probably be even better to have two separate computers in distinct rooms to mentally drive home the idea, but that isn't really practically doable for me at this point.  Best I could accomplish was to style the two users to look very different.
+
+## Additional thougths, a few days deeper into the experiment
+
+I've tweaked the settings a bit over time, which websites are allowed on which accounts.  Key seems to find a balance where it's not an obstacle to performing the tasks you want to to do. 
+
+It's strange.  This is increasingly turning into an accidental social-media detox.  Despite having unlimited access, I find myself using social media not only less often, but less time in total.  It doesn't appear to be as satisfying when  used actively as opposed to absent-mindedly while doing something else.
+
+That thing you do when you pull out your phone to fill the pauses in life, it isn't really possible anymore.  I mean I can pull out my phone, but there's nothing exciting there.  It's turned into a shampoo bottle.  I can still check my socials on my desktop computer if I make the effort to log into that account, but realistically I'm not doing that more than once or maybe twice a day now, for a brief moment at that.
+
+At first there was this gaping empty void, a wave of discomfort washed over me every time I would normally pull out my phone, but this passed with time.  Matter of days.  Now I just feel like I have a lot of time.  The impulse to pull out my phone is wearing off.  There is nothing exciting for me there anymore.  
+
+I also think boredom is vital for creativity, and opening and closing social media tabs are definitely taking a bite out of that...
