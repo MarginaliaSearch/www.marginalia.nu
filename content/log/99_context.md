@@ -38,14 +38,22 @@ After test-driving this for a few days, I think it's working pretty well.  It's 
 
 It would probably be even better to have two separate computers in distinct rooms to mentally drive home the idea, but that isn't really practically doable for me at this point.  Best I could accomplish was to style the two users to look very different.
 
-## Additional thougths, a few days deeper into the experiment
+## Additional thougths
+
+2024-02-01
 
 I've tweaked the settings a bit over time, which websites are allowed on which accounts.  Key seems to find a balance where it's not an obstacle to performing the tasks you want to to do. 
 
-It's strange.  This is increasingly turning into an accidental social-media detox.  Despite having unlimited access, I find myself using social media not only less often, but less time in total.  It doesn't appear to be as satisfying when  used actively as opposed to absent-mindedly while doing something else.
+It's strange.  This is increasingly turning into an accidental social-media detox.  Despite having unlimited access, I find myself using social media not only less often, but less time in total.  It doesn't appear to be as satisfying when  used actively as opposed to absent-mindedly while doing something else. 
 
 That thing you do when you pull out your phone to fill the pauses in life, it isn't really possible anymore.  I mean I can pull out my phone, but there's nothing exciting there.  It's turned into a shampoo bottle.  I can still check my socials on my desktop computer if I make the effort to log into that account, but realistically I'm not doing that more than once or maybe twice a day now, for a brief moment at that.
 
 At first there was this gaping empty void, a wave of discomfort washed over me every time I would normally pull out my phone, but this passed with time.  Matter of days.  Now I just feel like I have a lot of time.  The impulse to pull out my phone is wearing off.  There is nothing exciting for me there anymore.  
 
-I also think boredom is vital for creativity, and opening and closing social media tabs are definitely taking a bite out of that...
+2024-02-02
+
+This protocol is making mindless usage of these tools, the computer or the smartphone, it's making such usage boring.  It's taken a bit to catch this signal as an indicator that I need to actually go do something, and make an active choice on what to do next.  It's like a decade of conditioning is unravelling, and fast.
+
+I also think boredom is vital for creativity, and in retrospect, opening and closing social media tabs has definitely been taking a bite out of that...  
+
+It feels like using technology in the pre-smartphone and pre-social-media era, despite not really giving up access to the real benefits of these technologies. 
