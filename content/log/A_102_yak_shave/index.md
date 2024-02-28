@@ -30,7 +30,7 @@ their liveness once all setup is done, to avoid race conditions where clients tr
 before the service is ready.  
 
 At this point I noted the services weren't un-registering properly, and after some debugging 
-it became apparent that the docker images I was constructing weren't termination signals properly, 
+it became apparent that the docker images I was constructing weren't receiving termination signals properly, 
 so that Java's shutdown hooks weren't running.  Java's shutdown hooks only run on SIGINT, and not
 SIGTERM which was what it received.
 
@@ -58,13 +58,13 @@ they don't need to "just-in-case" wait for first boot.
 Anyway! Back to the problem at hand. 
 
 This was also a good opportunity to clean up the last vestiges of the aforementioned
-service framework, which was a weird rxjava based REST client base.  It has worked well,
+service framework, which was a weird RxJava based REST client base.  It has worked well,
 but has also been slow and kind of janky since it did not offer much in terms of type safety,
 not even urlencoding capabilities.
 
 The project's internal communication was already half-migrated over to gRPC, so the plan was
-to migrate what was left, and then kill the rxjava-based client.  Again, this went reasonably 
-well, and the rxjava based client was successfully killed.
+to migrate what was left, and then kill the RxJava-based client.  Again, this went reasonably 
+well, and the RxJava based client was successfully killed.
 
 At this point I looked at the changes, and realized it's actually kind of dumb to register
 services.  I should register APIs instead, and let the service registry worry about what is 
