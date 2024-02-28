@@ -1,8 +1,9 @@
 ---
-title: 'The Jak Shave'
+title: 'The Yak Shave'
 tags:
   - "search-engine"
 date: 2024-02-28
+aliases: ['/log/a_102_jak_shave/']
 ---
 
 I set out a little over a week ago to add a service registry to Marginalia Search,
