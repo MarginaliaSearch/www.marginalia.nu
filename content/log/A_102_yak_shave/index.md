@@ -17,7 +17,7 @@ Before the project was a search engine, it was originally just me messing with
 distributed software, where eventually a little framework emerged based on a 
 strange mixture of Spark and RxJava. 
 
-Based fresh familiarty with the difficulty in service discovery, I opted to base the 
+Based on fresh familiarity with the difficulty in service discovery, I opted to base the 
 new service registry thing on Zookeeper, which is a robust key-value store that's 
 designed for orchestrating distributed software.
 
