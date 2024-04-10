@@ -70,7 +70,7 @@ Alright, so it is an integer overflow! ... you might think.  Nope.  These are al
 
 There are four lights, damnit!
 
-At this point I patched production so that if this assertion were to fail, the input files were copied over to a separate directory.  This gave me a 2 GB or set of test-data that had been known to trigger the error that I could exfiltrate and examine locally.  
+At this point I patched production so that if this assertion were to fail, the input files were copied over to a separate directory.  This gave me a 2 GB set of test-data that had been known to trigger the error that I could exfiltrate and examine locally.  
 
 The bug of course did not re-appear when I ran this code in isolation, but that actually says something important.  I'd reduced the problem down to deterministic code being non-deterministic and outputting logical contradictions.  This feels like a good reason to question other things than the program logic.  
 
