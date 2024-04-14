@@ -92,4 +92,4 @@ I can at least say make statements about what hasn't caused the error.
 
 <hr>
 
-<b>Update</b>: This post got some attention on Hacker News, and as a result of the visibility I found myself in contact with a dev at Oracle who is looking into the problem as a possible compiler bug. 
+<b>Update</b>: This post got some attention on Hacker News, and as a result of the visibility I found myself in contact with a dev at Oracle who is looking into the problem as a possible compiler bug. [GH issue](https://github.com/oracle/graal/issues/8747).
