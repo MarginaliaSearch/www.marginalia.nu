@@ -89,3 +89,7 @@ I've isolated the code that manifests the bug and run it 50,000 times on the dat
 In general I'd argue you haven't fixed a bug unless you understand why it happened and why your fix worked, which makes this frustrating, since every indication is that the bug exists within proprietary code that is out of my reach.  This feels like an impasse, not a solution, even though the error has nominally been corrected.  
 
 I can at least say make statements about what hasn't caused the error.
+
+<hr>
+
+<b>Update</b>: This post got some attention on Hacker News, and as a result of the visibility I found myself in contact with a dev at Oracle who is looking into the problem as a possible compiler bug. 
