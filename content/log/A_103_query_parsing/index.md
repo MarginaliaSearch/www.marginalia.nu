@@ -168,7 +168,7 @@ Overall it can't be overstated how much thinking through data representation pay
 
 Even though the new query parsing and evaluation models are definitely a fair bit more complex, much of the code actually feels simpler, almost as though large parts have been removed.  And in a sense it has, what has been removed is all the gunk needed to deal with having data structured inappropriately.  Often this feels like complexity essential to the problem, and intuition is quick to tell us it can't be simplified any further than it is.
 
-The new segmentation information is translated into a constraints in a somewhat poorly named existing concept called term coherence requirements, which is a limitation that a set of terms must appear in close proximity within the document. 
+Aside from generating new search terms, the segmentation information is also a constraint a limitation that the set of terms must appear in close proximity within the document. 
 
 Regardless of segmentation, term proximity also feeds into two ranking parameters, one measuring the best position overlap of any path through the query, which rewards results where all terms appear close by, and the other is the average mutual [jaccard index](https://en.wikipedia.org/wiki/Jaccard_index) which rewards terms where some search terms are near by. 
 
