@@ -1,5 +1,5 @@
 ---
-title: 'Query Parsing and Understandng'
+title: 'Query Parsing and Understanding'
 date: '2024-04-17'
 tags:
 - "search-engine"
