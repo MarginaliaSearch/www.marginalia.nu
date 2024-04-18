@@ -8,17 +8,21 @@ categories = ["docs", "outdated"]
 tags = ["search-engine"]
 +++
 
+I'm just one guy building all of this on my own. I'd like to expand the search engine and make it more useful.  My hope is that it will bring value to its users and enable a thriving independent Internet.  
 
-I'm just one guy building all of this on my own. I'd like to expand the search engine and make it more useful.  My hope is that it will bring value to its users and enable a thriving independent Internet. 
+The search engine doesn't have any secret sauce, all the [source code is publicly available](https://git.marginalia.nu/) and as far as is legally and logistically possible, the [data](https://downloads.marginalia.nu/) is also available. 
 
-I'm paying most of the work out of my own pocket but that only goes so far.  To this end I have a few donation links. Every last bit helps and even a modest contribution is greatly appreciated and will lengthen the time I'm able to work
-like this.
+The entire work is funded by my own savings, supplemented by grants and public donations.  To this end I have a few donation links. Every last bit helps and even a modest contribution is greatly appreciated and will lengthen the time I'm able to work like this.  
 
 * [patreon](https://www.patreon.com/marginalia_nu)
 
 * [buymeacoffee](https://www.buymeacoffee.com/marginalia.nu)
 
-You can also just send me an email at kontakt@marginalia.nu and we can discuss other alternatives. 
+* [github sponsors](https://github.com/sponsors/MarginaliaSearch)
+
+You can also just send me an email at kontakt@marginalia.nu and we can discuss other alternatives.  
+
+I am a reluctant to receive smaller cryptocurrency donations due to the extremely crypto-hostile banking landscape of Sweden. 
 
 ## Other
 
