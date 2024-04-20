@@ -22,7 +22,7 @@ The entire work is funded by my own savings, supplemented by grants and public d
 
 You can also just send me an email at kontakt@marginalia.nu and we can discuss other alternatives.  
 
-I am a reluctant to receive smaller cryptocurrency donations due to the extremely crypto-hostile banking landscape of Sweden. 
+Note: I am reluctant to receive smaller cryptocurrency donations due to the extremely crypto-hostile banking landscape of Sweden. 
 
 ## Other
 
