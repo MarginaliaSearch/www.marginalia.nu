@@ -49,6 +49,7 @@ A brief list of video games I've enjoyed the last few years. Mostly indie games.
 
 * Nine Hours, Nine Persons, Nine Doors
 * AI: The Somnium Files
+* Paradise Killers (also has some goat simulator-like gameplay)
 
 ## Point & Click
 
