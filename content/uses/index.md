@@ -4,7 +4,7 @@ published: 2024-02-01
 norss: true
 ---
 
-Linux distribution is Gentoo, currently.  Been on Debian forever, but since it's approaching 20 years since last I used Gentoo, I decided to give it a go.  Feels oddly familiar.  So far less yak shaving than I'd anticipated.
+Linux distribution is Arch.  Been bouncing between Debian, Debian-likes (was on Pop! for a long while), Slackware, and recently Gentoo.  What I'd really like is Arch with OpenRC but that sadly isn't a thing as far as I'm aware.
 
 Window manager is XFCE4 with the Chicago95 theme.  KDE-stuff has the reactionary theme.  It's not a perfect fit, but it's close enough that it doesn't grate the senses too much.  More visually consistent than most other desktop environments, even actual (2020s) Windows.
 
@@ -14,8 +14,6 @@ Windows 95 is the peak of interface design.  If you turn away from skeumorphism,
 <a href="screenie.png"><img src="screenie.png"></a>
 <figcaption>Screenshot</figcaption>
 </figure>
-
-Browser is *Falkon*, which as far as browsers go isn't the greatest, but it lets me have sane scrollbars in my browser, which makes up for the fact that half the websites don't render correctly.
 
 Monospace terminal/editor font is *Comic Mono*, the excellent readability of which is real MVP in covering for my dyslexic ass.
 
