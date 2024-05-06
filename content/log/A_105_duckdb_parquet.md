@@ -31,7 +31,7 @@ but in brief, an HTTP server can announce support for range requests by sending 
 'Range: bytes=nn-mm',  and then the server should respond a HTTP 206 and only send those 
 octets.  Only major caveat in implementing this is that the range is inclusive. 
 
-When that is done, you can just query the URL in DuckDB: 
+With that in place, it's possible to query the URL in DuckDB as though it was a database table: 
 
 ```
 select count(*) from 'http://remote-server/foo'
