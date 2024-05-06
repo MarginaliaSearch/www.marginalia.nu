@@ -37,7 +37,7 @@ When that is done, you can just query the URL in DuckDB:
 select count(*) from 'http://remote-server/foo'
 ```
 
-You can do this with other format than parquet, but in many of those cases it will need 
+You can do this with other formats than parquet, but in many of those cases it will need 
 to download the entire file in order to perform the query.
 
 In practice, DuckDB seems to probe the endpoint with a HEAD first, presumably to sniff out 
