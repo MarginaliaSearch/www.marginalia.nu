@@ -7,7 +7,7 @@ tags:
 
 A neat property of the parquet file format is that it's designed with block I/O in mind,
 so that when you are interested in only parts of the contents of a file, it's possible to
-some extent to only read that data.  Many tools is aware of this property, and DuckDB
+some extent to only read that data.  Many tools are aware of this property, and DuckDB
 is one of them. Depending on which circles you run in, a lesser known aspect of HTTP 
 is range requests, where you specify which bytes in a file to be retrieved.  It's possible
 to combine this trio of properties to read remote parquet files directly in DuckDB.

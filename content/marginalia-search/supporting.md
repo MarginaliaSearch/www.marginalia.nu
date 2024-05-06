@@ -8,7 +8,7 @@ categories = ["docs", "outdated"]
 tags = ["search-engine"]
 +++
 
-I'm just one guy building all of this on my own. I'd like to expand the search engine and make it more useful.  My hope is that it will bring value to its users and enable a thriving independent Internet.  
+I'm just one guy building all of this on my own. I'd like to expand the search engine and make it more useful.  My hope is that it will bring value to its users and enable a thriving independent Internet. 
 
 The search engine doesn't have any secret sauce, all the [source code is publicly available](https://git.marginalia.nu/) and as far as is legally and logistically possible, the [data](https://downloads.marginalia.nu/) is also available. 
 
