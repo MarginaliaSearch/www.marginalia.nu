@@ -3,6 +3,7 @@ title: 'Experiment in Java native calls'
 date: '2024-05-16'
 tags:
 - 'search engine'
+- 'programming'
 ---
 
 I've experimentally replaced some of the Java implementations of quicksort and binary search with calls to C++ code, and saw huge benefits for the sorting code but the same or worse performance for binary search.
@@ -31,7 +32,7 @@ For binary searches, it's a bit of a wash slightly favoring Java.
 
 ## 64 bit sort 
 
-25 trials, graalvm 21.0.3, N=2<sup>10</sup>
+25 trials, graalvm 21.0.3, N=2<sup>20</sup>
 
 | Implementation | ops/s | Error p=99% | rel% native|
 |----------------|------------------|-------------|------------|
@@ -43,7 +44,7 @@ Compared to memorysegment, the C++ code is so much faster there's really no deba
 
 ## 128 bit sort 
 
-25 trials, graalvm 21.0.3, N=2<sup>9</sup>
+25 trials, graalvm 21.0.3, N=2<sup>19</sup>
 
 | Implementation | ops/s | Error p=99% |rel% native|
 |----------------|------------------|-------------|-----------|
@@ -58,7 +59,7 @@ The native performance seems as expected though, as it's sorting the same number
 
 ## 128 bit binary search 
 
-25 trials, graalvm 21.0.3, N=2<sup>9</sup>
+25 trials, graalvm 21.0.3, N=2<sup>19</sup>
 
 | Implementation | ops/s | Error p=99% |rel% native|
 |----------------|------------------|-------------|-----------|
