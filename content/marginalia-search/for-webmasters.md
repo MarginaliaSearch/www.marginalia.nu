@@ -29,17 +29,13 @@ You can also send me an email if something is indexed that you want me to remove
 
 ## Why isn't my page indexed?
 
-Odds are it just hasn't been discovered yet. The search engine has a pretty small index, and makes no pretenses of being complete.
+Odds are it just hasn't been discovered yet. The search engine has a pretty small index, and makes no pretenses of being complete.  You can expedite the discovery by [submitting it here](https://github.com/MarginaliaSearch/submit-site-to-marginalia-search).
 
-There could be several other reasons, some domain names are rejected because they look too much like domain names that are used by link farms. This mostly means .xyz and .icu. If you are hosted in Russia, China, Hong Kong, or Taiwan, you are also not going to get crawled. I feel bad for the innocent websites this affects, but the sad fact is that easily 90% of the link farms are hosted in these countries, and on these TLDs.
+Otherwise, there are several factors that cause domains to receive extra scrutiny, because they share traits with link farms.  This mostly means .xyz and .icu domains or IPs in Russia, China, Hong Kong, or Taiwan.  This definitely affects innocent websites, but the sad fact is that easily 90% of the link farms are hosted in these countries, and on these TLDs.
 
-For similar reasons, if you are hosted on a large VPS provider, especially Alibaba, or Psychz; you are not going to get crawled. Google Cloud is the only VPS provider, so far, that seems to effectively crack down on link farms. So that's the safest bet.
+For similar reasons, if you are hosted on a large VPS provider that does little internal policing, especially Alibaba or Psychz; you may not get crawled.  The crawler sometimes gets blocked by CDNs like Fastly and CloudFlare, so it may or may not index them depending on whether the bot is being throttled.
 
-The crawler sometimes gets captchad by CDNs like Fastly and CloudFlare, so it may or may not index them depending on whether the bot is being throttled.
-
-Searching for "site:www.yourdomain.tld" will provide you with an analysis. If the search engine is aware of the domain, there should be a button for slating it for crawling.  
-
-If you get nothing, then odds are the search engine has no knowledge about the domain yet. Get in contact if you want me to have a look at what's happening.
+Searching for "site:www.yourdomain.tld" will provide you with an analysis. If the search engine is aware of the domain, there should be a button for slating it for crawling.   If you get nothing, then odds are the search engine has no knowledge about the domain yet.
 
 ## A Call To Action
 
