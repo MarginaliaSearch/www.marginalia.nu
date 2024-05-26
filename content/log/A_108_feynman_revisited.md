@@ -16,7 +16,7 @@ Feynman's thinking algorithm is described like this:
 3. Write down the solution
 
 (This algorithm may or may not have actually been used by Feynman, it's as far as I can tell 
-Murray Gell-Mann's account of his Feynman's thinking.)
+Murray Gell-Mann's account of Feynman's approach.)
 
 The trick is that there is no trick.  This is how thinking works. 
 It appears that when you feed your brain related information, without further active involvement, 
