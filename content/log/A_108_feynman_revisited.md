@@ -3,7 +3,7 @@ title: "Feynman\'s Garden"
 date: '2024-05-26'
 ---
 
-The most lucid description of my problem solving process is the Feynman algorithm,
+The best description of my problem solving process is the Feynman algorithm,
 which is sometimes presented as a joke where the hidden subtext is "be smart", but
 I disagree.  The "algorithm" is a surprisingly lucid description of how thinking works in the 
 context of hard problems where the answer can't simply be looked up or trivially
