@@ -1,6 +1,7 @@
 ---
 title: 'Deep Bug'
 date: '2024-04-10'
+distinguished: 1
 tags:
 - programming
 - search-engine

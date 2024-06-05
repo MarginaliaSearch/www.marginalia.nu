@@ -1,6 +1,7 @@
 ---
 title: "Feynman\'s Garden"
 date: '2024-05-26'
+distinguished: 1
 ---
 
 The best description of my problem solving process is the Feynman algorithm,
