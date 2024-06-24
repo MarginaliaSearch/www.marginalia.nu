@@ -57,3 +57,7 @@ This protocol is making mindless usage of these tools, the computer or the smart
 I also think boredom is vital for creativity, and in retrospect, opening and closing social media tabs has definitely been taking a bite out of that...  
 
 It feels like using technology in the pre-smartphone and pre-social-media era, despite not really giving up access to the real benefits of these technologies. 
+
+2024-06-24
+
+I've moved away from using privoxy to using iptables.  Domain-based ACL with IPtables is not entirely trivial to set up, so I've shared the solution on github if anyone wants to have a peek: [https://github.com/vlofgren/BlockDomainsWithIPTables](https://github.com/vlofgren/BlockDomainsWithIPTables)
