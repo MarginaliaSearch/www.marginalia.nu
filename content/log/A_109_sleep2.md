@@ -5,7 +5,7 @@ date: 2024-07-31
 
 As an experiment, I've reduced my coffee-intake to a single cup a day for about a week now.  It's made an enormous difference in sleep, mood and energy.  I get tired at night, fall asleep quickly, and wake up refreshed.
 
-As mentioned previously in the context of [morning sunlight exposure](/86-sleep/)---another thing that's aided my sleeping habits, but is somewhat less practical to sustain as it requires fair weather---I've always been slow to get going in the morning, active at night, bad at getting to bed at sane hours.  Tired when I should be awake, and awake when I should be tired.  
+As mentioned previously in the context of [morning sunlight exposure](/log/86-sleep/)---another thing that's aided my sleeping habits, but is somewhat less practical to sustain as it requires fair weather---I've always been slow to get going in the morning, active at night, bad at getting to bed at sane hours.  Tired when I should be awake, and awake when I should be tired.  
 
 Normally I'd drink 4, sometimes 5 large cups of coffee throughout the day (I say cups but it's literal tea mugs), and it wasn't until the third I really could get going.  Didn't feel jittery or anything like that, mostly different shades of tired.
 
