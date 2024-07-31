@@ -1,6 +1,8 @@
 ---
 title: 'Less Coffee, Better Sleep'
 date: 2024-07-31
+tags:
+- sleep
 ---
 
 As an experiment, I've reduced my coffee-intake to a single cup a day for about a week now.  It's made an enormous difference in sleep, mood and energy.  I get tired at night, fall asleep quickly, and wake up refreshed.
