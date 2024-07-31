@@ -33,4 +33,6 @@ At night, I get tired, way more tired than I usually do.  Sometimes I've had a s
 
 ---
 
-Huh.  Can not drinking nearly two liters of coffee every day improve your sleep quality?  Big if true.
+I was drinking coffee because I was tired, and I was tired because I was drinking coffee.
+
+Can not drinking nearly two liters of coffee every day improve your sleep quality?  Big if true.
