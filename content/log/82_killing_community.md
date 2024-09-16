@@ -8,7 +8,7 @@ tags:
 
 This is a theory that's previously been stated in [log/39-normie-hypothesis.gmi](/log/39-normie-hypothesis.gmi), but I think it's worth expanding on as it's become very relevant with the recent Reddit shit-show actualizing just how bad that website has gotten along with social media in general.
 
-I think the model demonstrate how the 'enshittification' process is an inevitability with any social media that is run on a venture capital model. 
+I think the model demonstrates how the 'enshittification' process is an inevitability with any social media that is run on a venture capital model. 
 
 An online community can be like a village, where you have familiar faces, collective experiences, shared values and so forth.  It can be like a village and be five people, it can be like a village and be a thousand people.  
 
