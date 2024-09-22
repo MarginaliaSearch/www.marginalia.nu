@@ -1,6 +1,8 @@
 ---
 title: The sorry state of Java deserialization
 date: 2024-09-22
+tags:
+  - programming
 ---
 
 I've been on a bit of a frustration-driven quest to solve a problem I frequently encounter 
