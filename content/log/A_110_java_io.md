@@ -30,6 +30,7 @@ The benchmark will cover
 
 Scroll to the end if you just want the numbers.
 
+**Smartphone enjoyers will want to switch to horizontal mode for this article due to code samples that barely fit on desktop**
 ## Reference numbers
 
 Let's also consider DuckDB as a sort of reference benchmark, as I will always shill for this fantastic tool.   If we are orders of magnitude slower than DuckDB, something is off.  We'll store the numbers as fixed width integers and cities as varchars. 
