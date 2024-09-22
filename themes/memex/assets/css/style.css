@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5 {
 }
 pre {
   overflow: auto;
-  max-width: 60ch;
+  font-size: 8pt;
 }
 
 article {
