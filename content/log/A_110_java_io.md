@@ -498,3 +498,7 @@ try (var arena = Arena.ofConfined();
 I admit I don't understand these results.  There's clearly nothing in the runtime itself that prevents these types of speeds.  The supposedly good solutions are an order of magnitude slower than they should be.  It's relatively trivial to build something that's faster, so why isn't the code fast?  
 
 Disk I/O is a bottleneck on a good day.  We don't need to make it 10 times slower. 
+
+---
+
+Per popular request, a repo is up with most of these benchmarks: [https://github.com/vlofgren/Serialization1BRCBenchmark/](https://github.com/vlofgren/Serialization1BRCBenchmark/).  This blogpost sat as a nearly finished draft for almost a month during which I messed with the framework I created to run these benchmarks, so it's not the exact same code, but the results are similar enough.
