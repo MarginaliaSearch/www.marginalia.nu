@@ -14,20 +14,20 @@ If it is indeed being a nuisance, please let me know! Send an email to <kontakt@
 
 Telling me lets me fix whatever problem there is much faster, and if you are experiencing problems, then so are probably others as well. 
 
-## Crawler Fingerprint
+# Crawler Fingerprint
 
 ```
 User-Agent: search.marginalia.nu
 IP address: 81.170.128.21, 193.183.0.162-174
 ```
 
-## robots.txt
+# robots.txt
 
 The search engine respects robots.txt, and looks for the user-agent "search.marginalia.nu" in specific, as well as general directives. Note that changes to robots.txt may not take effect immediately. 
 
 You can also send me an email if something is indexed that you want me to remove. 
 
-## Why isn't my page indexed?
+# Why isn't my page indexed?
 
 Odds are it just hasn't been discovered yet. The search engine has a pretty small index, and makes no pretenses of being complete.  You can expedite the discovery by [submitting it here](https://github.com/MarginaliaSearch/submit-site-to-marginalia-search).
 
@@ -37,7 +37,7 @@ For similar reasons, if you are hosted on a large VPS provider that does little 
 
 Searching for "site:www.yourdomain.tld" will provide you with an analysis. If the search engine is aware of the domain, there should be a button for slating it for crawling.   If you get nothing, then odds are the search engine has no knowledge about the domain yet.
 
-## A Call To Action
+# A Call To Action
 
 Please link to other websites you like! Keep a bookmark list, a blog roll, whatever. You don't have to try to trap your visitor by only linking to your own stuff. 
 

@@ -31,11 +31,11 @@ I don't expect this will be the next "big" search engine. This is and will remai
 
 * [API](https://api.marginalia.nu)
 
-# Warning: Experimental software! 
+## Warning: Experimental software! 
 
-This is an experimental toy, and you should expect downtime, data losses, bugs, jank of every flavor. I sadly don't have enough hardware to keep a back-up system running when I take down the server to make alterations. I try not to do this too frivolously, but expect a few minutes of downtime every now and then.
+This is still a fairly experimental search engine, and down-time does happen, although relativley rarely.  If you find any bugs, please do report either with an issue at https://git.marginalia.nu, or via email at kontakt@marginalia.nu .
 
-# A Theoretical Justification
+## A Theoretical Justification
 
 In recent years, something has been simmering: Some call it the "Small Internet". I hesitate to call it a movement, that would imply a level of organization and intent that it does not possess. It's a disjointed group of like-minded people that recognize that the Internet has lost a certain je ne sais quoi, it has turned from a wild and creative space, into more of shopping mall. Where ever you go, you're prodded to subscribe to newsletters, to like and comment, to buy stuff.
 
@@ -83,14 +83,14 @@ Competition is perhaps not the word, we're all pulling in the same direction, on
 
 * [See Also: Seirdy's Comprehensive Search Engine Catalogue](https://seirdy.one/2021/03/10/search-engines-with-own-indexes.html)
 
-## Have something to say?
+# Have something to say?
 
 Send me an e-mail at kontakt@marginalia.nu.
 
-## Support the Project
+# Support the Project
 
 * [/projects/edge/supporting.gmi](/projects/edge/supporting.gmi)
 
-## Links
+# Links
 
 * [/projects/edge/index.gmi](/projects/edge/index.gmi)

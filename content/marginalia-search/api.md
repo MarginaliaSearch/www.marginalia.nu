@@ -32,7 +32,7 @@ By default the data is provided under the CC-BY-NC-SA 4.0 license. Other licensi
 
 * [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-## Sample code in python 3
+# Sample code in python 3
 ```python
 import requests
 
@@ -54,10 +54,10 @@ else:
     print ("Bad Status " + str(rsp.status_code))
 ```
 
-## Something missing?
+# Something missing?
 
 Please let me know if there are features you would like added to the API.
 
-## See also
+# See also
 
 * [Data sets from the search engine](https://downloads.marginalia.nu/)
