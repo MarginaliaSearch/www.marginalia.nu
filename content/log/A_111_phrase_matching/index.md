@@ -50,7 +50,7 @@ The positions themselves tend to be on average small, but the distribution is fa
 
 The data can be better behaved by calculating the difference between each position, to get a list of smaller numbers.  The statistical distribution is still fairly diverse, but since words tend to either be common and appear in many sentences, or cluster up in a few sentences of a document, you get a lot of very small values when you look at the relative difference in position. 
 
-Plotting the difference between position values, we see the number of large values has drastically been reduced.   There is still a tail of larger values, but it tapers off much faster.
+Plotting the difference between position values, we see the number of small values has drastically been increased.   There is still a tail of larger values, but it tapers off much faster.
 
 <figure>
 <a href="pos-delta.png"><img src="pos-delta.png" title="plot of relative distance between adjacent positions in a sample of positions lists"></a>
