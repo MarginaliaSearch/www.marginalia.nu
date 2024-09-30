@@ -39,7 +39,7 @@ To adequately serve the query, exact positions were needed so we could get away 
 
 ## Representing positions lists
 
-Thankfully, this is well trodden ground in information retrieval, and the literal textbook solution is to just store a compressed list each position of a term in the document.   The positions themselves are just positive integers.
+Thankfully, this is well trodden ground in information retrieval, and the literal textbook solution is to just store a compressed list each position of a term in the document as a list of positive integers.
 
 The positions themselves tend to be on average small, but the distribution is fairly wide and many values can be fairly large.  To give an intuition for this, I'm attaching some plots.
 
