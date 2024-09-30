@@ -64,19 +64,19 @@ For compression of a list of monotonously increasing positive integers, several 
 
 In short, you count the significant bits in the number to be encoded, subtract one from that count, and then you prefix the number to be encoded with that many binary zeroes. 
 
-<strong>Example:</strong> To encode the byte 56, or 0b00111000 in binary, note that there are 6 significant bits: 
+<strong>Example:</strong> To encode the byte 56, or 0011'1000<sub>2</sub> in binary, note that there are 6 significant bits: 
 
 <pre>
-   00<u>111000</u>
+   00<u>11'1000</u><sub>2</sub>
 </pre>
 
 We prefix the significant bits with 6-1 = 5 binary zeroes
 
 <pre>
-   <u>00000</u>111000
+   <u>000'00</u>11'1000<sub>2</sub>
 </pre>
 
-And thus we've arrived at the 11 bit encoding of the number 56!
+And thus we've arrived at the 11 bit encoding of the number 56!  Just mind that the leading zeroes are significant.
 </div>
 
 This is frequently used in combination with other techniques as part of a compression algorithm, but in our case since the data to be compressed was already a series of small positive numbers, Elias gamma seemed like a good choice as-is.
@@ -90,17 +90,17 @@ Plan B was to use varints instead.  The varint coding scheme is also relatively 
 
 The flavor of varint encoding chosen uses the highest bit as a continuation flag.  The value to be encoded is grouped into segments of 7 bits, and all the the least significant grouping of bits has its 8:th bit set as a continuation flag.
 
-<strong>Example: </strong> To represent the number 700 (10'0101'1000<sub>1</sub>), we first break into groups of 7 bits
+<strong>Example: </strong> To represent the number 700 (0010'0101'1000<sub>2</sub>), we first break into groups of 7 bits
 
 <pre>
-  0b<s>00000</s>100  (bits 10-7, padded to byte)
-  0b<s>0</s>1011000  (bits 7-0, padded to byte)
+  <s>0000'0</s>100<sub>2</sub>  (bits 10-7, padded to byte)
+  <s>0</s>101'1000<sub>2</sub>  (bits 7-0, padded to byte)
 </pre>
 
 Then set the highest one bit to signal continuation for all but the lowest byte
 <pre>
-  0b<u>1</u>0000100
-  0b<u>0</u>1011000
+  <u>1</u>000'0100<sub>2</sub>
+  <u>0</u>101'1000<sub>2</sub>
 </pre>
 </div>
 
@@ -302,20 +302,20 @@ Here Elias delta is a coding scheme similar to Elias gamma, but favors slightly 
 
 The Elias Delta code is similar to the gamma code, except instead of using base 1 to code the bit width, you use the Gamma code. 
 
-<strong>Example:</strong> To encode the byte 56, or 0b00111000 in binary, note that there are 6 significant bits: 
+<strong>Example:</strong> To encode the byte 56, or 0011'1000<sub>2</sub> in binary, note that there are 6 significant bits: 
 
 <pre>
-   00<u>111000</u>
+   00<u>11'1000</u><sub>2</sub>
 </pre>
 
 Gamma code the number of significant bits - 1: 
 <pre>
-  gamma(6-1) = gamma(0b101) = <u>00</u>101.
+  gamma(6-1) = gamma(101<sub>2</sub>) = <u>00</u>101<sub>2</sub>.
 </pre>
 
-Prefix the significant bits of 56, 111000, with gamma(6-1)
+Prefix the significant bits of 56, 11'1000<sub>2</sub>, with gamma(6-1)
 <pre>
-   <u>101</u>111000
+   <u>1'01</u>11'1000<sub>2</sub>
 </pre>
 
 And thus we've arrived at the 10 bit encoding of the number 56!
