@@ -41,7 +41,7 @@ To adequately serve the query, exact positions were needed so we could get away 
 
 Thankfully, this is well trodden ground in information retrieval, and the literal textbook solution is to just store a compressed list each position of a term in the document as a list of positive integers.
 
-The positions themselves tend to be on average small, but the distribution is fairly wide and many values can be fairly large.  To give an intuition for this, I'm attaching some plots.
+The positions themselves tend to be on average small, but the distribution is fairly wide and large values are a common sight.  To give an intuition for this, I'm attaching some plots.
 
 <figure>
 <a href="pos-abs.png"><img src="pos-abs.png" title="plot of the number of document positions for a given length"></a>
