@@ -57,7 +57,7 @@ Plotting the difference between position values, we see the number of small valu
 <figcaption>Plot of relative distance between adjacent positions in a sample of positions lists.</figcaption>
 </figure>
 
-For compression of a list of monotonously increasing positive integers, several options are available.  I initially implemented Elias gamma coding, which is a simple variable bit width code that is  effective for very small numbers.   
+For compression of a list positive integers, several options are available.  I initially implemented Elias gamma coding, which is a simple variable bit width code that is  effective for very small numbers.   
 
 <div style="border: 1px solid #888; padding: 0.5ch">
 <strong>Elias Gamma Code: </strong>
