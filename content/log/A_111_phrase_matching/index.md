@@ -48,7 +48,7 @@ The positions themselves tend to be on average small, but the distribution is fa
 <figcaption>Plot of the number of document positions for a given length.</figcaption>
 </figure>
 
-The first step is to calculate the difference between each position, to make the numbers smaller.  The statistical distribution is fairly diverse, but since words tend to either be common and appear in many sentences, or cluster up in a few sentences of a document, you get a lot of very small values when you look at the relative difference in position. 
+The data can be better behaved by calculating the difference between each position, to get a list of smaller numbers.  The statistical distribution is still fairly diverse, but since words tend to either be common and appear in many sentences, or cluster up in a few sentences of a document, you get a lot of very small values when you look at the relative difference in position. 
 
 Plotting the difference between position values, we see the number of large values has drastically been reduced.   There is still a tail of larger values, but it tapers off much faster.
 
