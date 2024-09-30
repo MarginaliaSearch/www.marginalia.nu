@@ -315,7 +315,7 @@ Gamma code the number of significant bits - 1:
 
 Prefix the significant bits of 56, 11'1000<sub>2</sub>, with gamma(6-1)
 <pre>
-   <u>1'01</u>11'1000<sub>2</sub>
+   <u>001'01</u>11'1000<sub>2</sub>
 </pre>
 
 And thus we've arrived at the 10 bit encoding of the number 56!
