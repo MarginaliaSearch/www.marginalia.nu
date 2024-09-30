@@ -129,7 +129,7 @@ In many cases this type of micro-optimization would not see much actual impact, 
 
 There are even faster vectorized implementations of varints (e.g. Lemire et al's [Stream VByte](https://arxiv.org/abs/1709.08990)), but I've been unable to get them to perform well in Java, largely due to inadequate access to the [PSHUFB instruction](https://www.bazhenov.me/posts/rust-stream-vbyte-varint-decoding/). 
 
-There are also reasons to expect Stream VByte may not perform well in this particular instance:  The length of the lists follows via eyeball statistics an apparent pareto distribution that is heavily biased toward very short lists, weighted average length is less than 4, and because of this looking at vector operations is likely not going to be as useful as it might seem.
+There are also reasons to expect Stream VByte may not perform well in this particular instance:  The length of the lists follows via eyeball statistics an apparent pareto distribution that is heavily biased toward very short lists, average length is less than 4, and because of this looking at vector operations is likely not going to be as useful as it might seem.
 
 <figure>
   <a href="poslistlength.png"><img src="poslistlength.png" alt="log-log graph of the distribution of positions lists lengths, showing a linear descending slope"></a>
