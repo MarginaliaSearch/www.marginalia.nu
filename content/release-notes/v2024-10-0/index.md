@@ -73,7 +73,7 @@ A side effect is that the code can be configured to run in any number of configu
 
 As part of this, the old client-service library was overhauled, and a lot of questionable technical choices were expunged.  The services now all talk gRPC instead of HTTP.
 
-[PR#81](https://github.com/MarginaliaSearch/MarginaliaSearch/pull/120) [PR#90](https://github.com/MarginaliaSearch/MarginaliaSearch/pull/120) [PR#92](https://github.com/MarginaliaSearch/MarginaliaSearch/pull/120)
+[PR#81](https://github.com/MarginaliaSearch/MarginaliaSearch/pull/81) [PR#90](https://github.com/MarginaliaSearch/MarginaliaSearch/pull/90) [PR#92](https://github.com/MarginaliaSearch/MarginaliaSearch/pull/92)
 
 # Misc
 
