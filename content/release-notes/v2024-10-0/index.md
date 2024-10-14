@@ -93,9 +93,9 @@ The CSS was given a bit of an overhaul and dark mode was revived, work by  [@sam
 
 # Notable Bugfixes
 
-* Fix bug that caused some domains to fail to fully crawl.  The exact circumstances are a bit flaky, but in some cases, the crawler would halt at the first document, and fail to load links from it. 
+* Fixed bug that caused some domains to fail to fully crawl.  The exact circumstances are a bit flaky, but in some cases, the crawler would halt at the first document, and fail to load links from it. 
 * The crawler was not properly stripping the W/-prefix from weak E-tags, when making conditional requests, causing unnecessary traffic.  This has been corrected.
-* Fix bug where the summarizer would pick up the contents of &lt;noscript&gt; tags.  This caused escaped HTML to sometimes show up in the document summaries, most commonly goat counter's code. 
+* Fixed bug where the summarizer would pick up the contents of &lt;noscript&gt; tags.  This caused escaped HTML to sometimes show up in the document summaries, most commonly goat counter's code. 
 
 # Bugs found in dependencies
 
