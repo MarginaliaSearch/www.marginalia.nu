@@ -1,0 +1,4 @@
+.obsidian
+.idea
+public/
+*.lock
