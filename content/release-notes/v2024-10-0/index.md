@@ -40,7 +40,7 @@ A new screenshot capture function has been added, screenshots are fetched/refres
 Pagination has been added for the search results.  This is in a sense fake pagination, made possible because each index node fetches the total number of requested results, but only the best results across all nodes are selected in the query service, and the pagination is done within this set.  It's unlikely paging beyond page 8 or 9 is going to be helpful anyway. [PR#119](https://github.com/MarginaliaSearch/MarginaliaSearch/pull/119)
 
 <figure>
-  <a href="pagination.png"><img src="pagination.png" alt="screenshot of the pagination in marginalia search"></a>
+  <a href="/release-notes/v2024-10-0/pagination.png"><img src="/release-notes/v2024-10-0/pagination.png" alt="screenshot of the pagination in marginalia search"></a>
   <figcaption>Screenshot of the pagination in Marginalia Search</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ Pagination has been added for the search results.  This is in a sense fake pagin
  Added a new domain management view that permits inspection and index node assignment on a domain level, as well as the easy addition of new domains to be crawled.
 
 <figure>
-  <a href="domains.png"><img src="domains.png" alt="screenshot of the new domains view"></a>
+  <a href="/release-notes/v2024-10-0/domains.png"><img src="/release-notes/v2024-10-0/domains.png" alt="screenshot of the new domains view"></a>
   <figcaption>Screenshot of the new domain management view</figcaption>
 </figure>
  
