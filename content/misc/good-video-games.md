@@ -18,11 +18,15 @@ A brief list of video games I've enjoyed the last few years. Mostly indie games.
 ## CRPG
 
 * Disco Elysium
+* Dread Delusion (also a bit of a King's Field-like)
 
 ## Puzzle
 
 * Legend of Grimrock II
 * Yuppie Psycho
+
+## Archeology Simulators
+
 * Heaven's Vault
 * Chants of Sennaar
 
