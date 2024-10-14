@@ -5,7 +5,11 @@ tags:
   - search-engine
   - nlnet
 ---
+This is a new major release of marginalia search, mostly leaning toward the technical side.  
 
+Emphasis has been on ensuring the search engine has the technical capabilities to serve more types of queries, especially longer queries which it previously did not handle very well.  
+
+Effort has also been put toward making sure it's possible to install and run outside of docker.  There is still some work to be done to streamline the installation process, but we're getting there.
 # Search Improvements
 
 ## Query Parsing
@@ -16,6 +20,7 @@ tags:
 
 Full phrase matching has been implemented, allowing not just "quoted search terms" to function better, but the result ranking to consider the word order in the query.  This required the introduction of high accuracy keyword position data, and a re-write of the index.  [Writeup](https://www.marginalia.nu/log/a_111_phrase_matching/), [PR#99](https://github.com/MarginaliaSearch/MarginaliaSearch/pull/99)
 
+The constraints on valid keywords have also been relaxed, meaning it should be easier to search for e.g. program code,  accepting tokens such as "$var" or "strlen()". 
 ### Slop 
 
 As part of this change, ephemeral data is now stored in the built-for-marginalia [Slop](https://github.com/MarginaliaSearch/SlopData) format, with a new marginalia adjacent library for reading and writing this data.  As a result of this, and optimizations surrounding it,  index construction is time is now reduced by something like 80% in production. 
@@ -33,7 +38,7 @@ average-age.0.dat.f64le.gz
 
 ## Capture Function
 
-A new screenshot capture function has been added, screenshots are fetched/refreshed by page views on the site:-viewer, whether by human intervention or GoogleBot rambling.  Request throttling and re-fetch timers are in place to ensure this can't be used for abuse.  This ensures that frequently viewed sites are kept up to date, and has helped the screenshot library grow quite considerably.  [PR#120](https://github.com/MarginaliaSearch/MarginaliaSearch/pull/120)
+A new screenshot capture function has been added, screenshots are fetched/refreshed by page views on the site:-viewer, whether by human browsing or GoogleBot's rambling.  Request throttling and re-fetch timers are in place to ensure this can't be used for abuse.  This ensures that frequently viewed sites are kept up to date, and has helped the screenshot library grow quite considerably.  [PR#120](https://github.com/MarginaliaSearch/MarginaliaSearch/pull/120)
 
 ## Pagination
 
