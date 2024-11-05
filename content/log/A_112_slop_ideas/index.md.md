@@ -23,9 +23,12 @@ I opted instead to put the schema information in the code itself, as code.   Let
 
 ```
 class DemographicsTable {
-  public static StringColumn cityColumn = new StringColumn("city");  
-  public static IntColumn populationColumn = new IntColumn("population");  
-  public static DoubleColumn avgAgeColumn = new DoubleColumn("avgAge");
+  public static StringColumn cityColumn 
+            = new StringColumn("city");  
+  public static IntColumn populationColumn 
+            = new IntColumn("population");  
+  public static DoubleColumn avgAgeColumn 
+            = new DoubleColumn("avgAge");
 }
 ```
 
@@ -63,12 +66,19 @@ The same isn't possible for storage types, this was a trade-off between adding e
 An idiomatic example of a table storing demographics data with basic read and write capabilities:
 
 ```java
-public record Demographics(String city, int population, double avgAge) {  
-  static StringColumn cityColumn = new StringColumn("city", 
-									     StandardCharsets.ASCII, 
-									     StorageType.GZIP);  
-  static IntColumn populationColumn = new IntColumn("population");  
-  static DoubleColumn avgAgeColumn = new DoubleColumn("avgAge");  
+public record Demographics(
+		String city, 
+		int population, 
+		double avgAge) 
+{  
+  static StringColumn cityColumn = 
+            new StringColumn("city", 
+			        StandardCharsets.ASCII, 
+                    StorageType.GZIP);  
+  static IntColumn populationColumn = 
+            new IntColumn("population");  
+  static DoubleColumn avgAgeColumn = 
+            new DoubleColumn("avgAge");  
   
   public static class Writer extends SlopTable {  
     StringColumn.Writer cityWriter;  
