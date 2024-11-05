@@ -15,9 +15,9 @@ This is somewhat  flying in the face of common programming advice promoting deco
 
 ## Schema as code
 
-Ad hoc binary formats are kind of a pain to maintain, and have atrocious portability; meanwhile, many off the shelf ways of serializing data seem to revel in making the format as complex as possible.  
+Ad hoc binary formats are kind of a pain to maintain, and have atrocious portability; meanwhile, common off the shelf ways of serializing data seem to revel in making the format as complex as possible.  
 
-Many formats solve the reader-writer synchronization problem by either storing a schema in a different location from the code, sometimes in the binary itself.   This adds friction whenever you want to read or write to the format, having three places in the code base that are relevant, the reader, the writer, and the schema; and typically also adds a fair amount of overhead to serialization and deserialization, as the schema is not available at compile time.
+Many formats solve the reader-writer synchronization problem by either storing a schema in a different location from the code, sometimes in the binary data itself.   This adds friction whenever you want to read or write to the format, having three places in the code base that are relevant, the reader, the writer, and the schema; and typically also adds a fair amount of overhead to serialization and deserialization, as the schema is not available at compile time.
 
 I opted instead to put the schema information in the code itself, as code.   Let's describe some demographics data to show what I mean:
 
