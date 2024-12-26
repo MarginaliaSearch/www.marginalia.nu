@@ -63,7 +63,7 @@ No matter how many *shall* and *must* you put in the specifications, there's a h
 
 ### Bot Mitigation
 
-Another catch is that it's fairly common to encounter websites with misconfigured bot-mitigation that blocks RSS/Atom retrieval.  There's a relatively recent [HN thread](https://news.ycombinator.com/item?id=42482684) on the topic, which appears to be a nuisance both on the publisher and consumer end.  You can largely solve this by limiting the number of simultaneous requests to the same root domain.
+Another catch is that it's fairly common to encounter websites with misconfigured bot-mitigation that blocks RSS/Atom retrieval.  There's a relatively recent [HN thread](https://news.ycombinator.com/item?id=42482684) on the topic.  It appears to be a nuisance both on the publisher and consumer end.  You can largely solve this by limiting the number of simultaneous requests to the same root domain.
 
 ### URI fragments 
 
