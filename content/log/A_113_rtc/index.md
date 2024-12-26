@@ -41,7 +41,7 @@ On the flip side, many more websites have RSS or Atom feeds than have &lt;link&g
 This approach seems to increase the number of feeds discovered by 25%, though about 5% of the discovered feeds are from medium.com, which has a link tag that points to a different domain than the medium blog, interacting poorly with the search engine that denies such cross-domain feeds; while at the same time having a same-domain feed that is viable.
 ### Parsing 
 
-When parsing feed data, it's relatively common to encounter XML errors, as many directly inject HTML into their feeds, perhaps sanitizing the angle brackets, but not without properly sanitizing the HTML entities.  
+When parsing feed data, it's relatively common to encounter XML errors, as many directly inject HTML into their feeds, perhaps sanitizing the angle brackets, but  without properly sanitizing the HTML entities.  
 
 The problem with this is that XML has a much smaller number of named character entities by default, so some logic is needed to attempt to translate HTML entities into some string equivalent, or failing to do that, escaping the character entities with &amp;amp;s, which will lead to some mangled text, but will at least not cause the XML parser to catch fire.
 
