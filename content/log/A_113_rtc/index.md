@@ -1,6 +1,8 @@
 ---
 title: RSS Feeds and Real Time Crawling
 date: 2024-12-26
+tags:
+  - search-engine
 ---
 A while back an update went live that, with some caveats, changes the time it takes for an update on a website to reflect in the search engine index from up to 2 months to 1-2 days.  Conditions being if the website has an RSS or Atom feed.
 
