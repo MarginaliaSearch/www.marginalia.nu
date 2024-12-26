@@ -59,7 +59,7 @@ A publisher <em>should</em> encode "&amp;" and "&lt;" in plain text using hexa
 
 Although when dealing with real world web data, specifications are never more than vague suggestions, and data generally needs to be interpreted very charitably on the consumer side.
 
-No matter how many *shall* and *must* you put in a the specifications, there's a heady fraction of the data that *won't*. 
+No matter how many *shall* and *must* you put in the specifications, there's a heady fraction of the data that *won't*. 
 
 ### Bot Mitigation
 
