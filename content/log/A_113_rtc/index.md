@@ -14,7 +14,7 @@ This is a breakdown of what has gone into this change.
 In principle keeping track of feeds is easy, and something the search engine has nominally supported for quite some while, although it was a bit of a janky set-up that required manually running a curl command every time it was to be updated.  Needless to say, it didn't stay up to date
 very often.
 
-Originally the plan was to put a simple RSS feed in the site inspection view, a nice addition and a good way of ensuring that the feed discovery and retrieval is actually working well.
+Originally the plan was to put a simple RSS feed in the site inspection view, though it turns out feed data is very useful for a search engine in discovering new links.  The feed view is still a nice addition and a good way of ensuring that the feed discovery and retrieval is actually working well. 
 
 <figure>
 <a href="site-viewer.png"><img src="site-viewer.png" alt="screenshot of the site viewer showing the RSS feed"></a>
