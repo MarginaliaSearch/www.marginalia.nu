@@ -27,7 +27,7 @@ The [upcoming redesign of the search engine UI](https://test.marginalia.nu/) add
 <figcaption>Preview of the subscription capability of the new search UI</figcaption>
 </figure>
 
-The setup for storing and accessing feed data is very simple.  All feed data is stored in a small sqlite database with a table consisting of a domain name and a JSON blob encoding the contents of the feed, when it was last fetched.  This works well, as there isn't much need of complex aggregations of the data, and even when such operations are needed, it's still perfectly performant.   There simply isn't that much data, about 1 GB per 250k feeds.
+The setup for storing and accessing feed data is very simple.  All feed data is stored in a small sqlite database with a table consisting of a domain name and a JSON blob encoding the contents of the feed, when it was last fetched.  This works well, as there isn't much need for complex aggregations of the data, and even when such operations are needed, it's still perfectly performant.   There simply isn't that much data, about 1 GB per 250k feeds.
 
 Periodically, the RSS fetcher will ask the search engine for all known feeds, and attempt to fetch them all.  This is a very slow process with a lot of bad URLs, so other times the feed fetcher will only attempt to fetch feeds it's successfully fetched before.    
 
@@ -38,7 +38,7 @@ One catch is that while a website can indicate that it has feeds, there is no wa
 
 On the flip side, many more websites have RSS or Atom feeds than have &lt;link&gt; tags pointing them out.  To increase the number of feeds discovered, an alternate track is run when there is no link tag, where the crawler will probe a few paths that are likely to contain a feed, and then sniff the first 256 bytes of the response for &lt;rss&gt; or &lt;atom&gt; tags.   
 
-This approach seems to increase the number of feeds discovered by 25%, though about 5% of the discovered feeds are form medium.com, which has a link tag that points to a different domain than the medium blog, interacting poorly with the search engine that denies such cross-domain feeds; while at the same time having a same-domain feed that is viable.
+This approach seems to increase the number of feeds discovered by 25%, though about 5% of the discovered feeds are from medium.com, which has a link tag that points to a different domain than the medium blog, interacting poorly with the search engine that denies such cross-domain feeds; while at the same time having a same-domain feed that is viable.
 ### Parsing 
 
 When parsing feed data, it's relatively common to encounter XML errors, as many directly inject HTML into their feeds, perhaps sanitizing the angle brackets, but not without properly sanitizing the HTML entities.  
