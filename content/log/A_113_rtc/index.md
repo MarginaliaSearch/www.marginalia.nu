@@ -8,6 +8,7 @@ A while back an update went live that, with some caveats, changes the time it ta
 
 The big crawl job takes about two months, and is run partition by partition, meaning there's typically a slice of the index that is two months stale at any given point in time.  To help compensate for this, a new crawler and index partition has been added that focuses on recently updated content.
 
+This is a breakdown of what has gone into this change.
 ## RSS/Atom
 
 In principle keeping track of feeds is easy, and something the search engine has nominally supported for quite some while, although it was a bit of a janky set-up that required manually running a curl command every time it was to be updated.  Needless to say, it didn't stay up to date
