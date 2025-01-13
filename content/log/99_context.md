@@ -1,6 +1,7 @@
 ---
 title: 'Contexts, Friction and Distractions'
 published: '2024-01-30'
+updated: '2025-01-13'
 tags:
 - 'platforms'
 - 'moral-philosophy'
@@ -61,3 +62,13 @@ It feels like using technology in the pre-smartphone and pre-social-media era, d
 2024-06-24
 
 I've moved away from using privoxy to using iptables.  Domain-based ACL with IPtables is not entirely trivial to set up, so I've shared the solution on github if anyone wants to have a peek: [https://github.com/vlofgren/BlockDomainsWithIPTables](https://github.com/vlofgren/BlockDomainsWithIPTables)
+
+2025-01-13
+
+I've started using single site browsers.  A single site browser is pretty easy to make, you can either use chrome or chromium and start it with `chrome --app=some-url`, or use electron to build your own browser wrapper.  Either is pretty easy. 
+
+I'm using them both for social media, on the social media account, but also for work, so I have a desktop shortcut for e.g. CI or Grafana, that opens a window that only shows the relevant website, with no URL bar or tabs.
+
+I've also been experimenting with creating single-task users, using a tiling window manager to create an user that only has a single task.  It took some configuration to set up as I wanted it, as I want the window to not be full screen, as that's a bit uncomfortable on a modern large monitor.  I prefer a viewing angle comparable to a 15"-17" monitor for this.
+
+Single task-users combine well with single site browsers, so I have separate user accounts for social media websites, as well as for blogging and a few other tasks where focus is helpful.  I'm writing this with my blog user now, which only has a single fixed ghostty window in the middle of the screen.
