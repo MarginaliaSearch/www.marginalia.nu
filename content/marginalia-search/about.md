@@ -9,6 +9,14 @@ tags = ["search-engine"]
 +++
 
 
+<div style="border: 1px solid red; padding-left: 1ch; padding-right: 1ch;">
+
+**This information is outdated** 
+
+The marginalia search project info now lives on [about.marginalia-search.com](https://about.marginalia-search.com/).
+
+</div>
+
 Ever feel like the Internet has gotten a bit... I don't know, samey? There's funny images scrolling by and you blow some air through your nose and keep scrolling and then someone has done something upsetting and you write an angry comment and then you scroll some more. 
 
 Remember when you used to explore the Internet, when you used to discover cool little websites made by people and it wasn't just a bunch of low effort content mill listicles and blog spam? 

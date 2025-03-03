@@ -7,6 +7,14 @@ draft = false
 categories = ["docs"]
 +++
 
+<div style="border: 1px solid red; padding-left: 1ch; padding-right: 1ch;">
+
+**This information is outdated** 
+
+The marginalia search project info now lives on [about.marginalia-search.com](https://about.marginalia-search.com/).
+
+</div>
+
 Last Updated: 2024-05-21
 
 This privacy policy is in effect on search.marginalia.nu.

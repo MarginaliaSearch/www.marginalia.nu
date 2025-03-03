@@ -6,6 +6,14 @@ aliases:
 - "/projects/edge/changelog.gmi"
 ---
 
+<div style="border: 1px solid red; padding-left: 1ch; padding-right: 1ch;">
+
+**This information is outdated** 
+
+The marginalia search project info now lives on [about.marginalia-search.com](https://about.marginalia-search.com/).
+
+</div>
+
 Information relating to the Marginalia Search project. 
 
 Marginalia Search is an independent DIY search engine that focuses on non-commercial content, and attempts to show you sites you perhaps weren't aware of in favor of the sort of sites you probably already knew existed. 

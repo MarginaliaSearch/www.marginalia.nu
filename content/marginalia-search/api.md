@@ -7,6 +7,14 @@ draft = false
 categories = ["docs", "outdated"]
 +++
 
+<div style="border: 1px solid red; padding-left: 1ch; padding-right: 1ch;">
+
+**This information is outdated** 
+
+The marginalia search project info now lives on [about.marginalia-search.com](https://about.marginalia-search.com/).
+
+</div>
+
 An API for the search engine is available through api.marginalia.nu. 
 
 The API is simple enough to be self-explanatory. Examples:
