@@ -23,7 +23,7 @@ Git hosts are also very valuable sources of data, though be sure to really get i
 
 Don't bother cloning the git repository though, as that requires a bunch of specialized coding on your end, and if you waste your time reinventing the wheel like that you're ngmi.  Just crawl the web interface.   This is very expensive for the server, but I guess they should have thought about that before they started hosting git projects online for public access.  That's such a dumb idea when the AI singularity is going to replace coding entirely in a few months, it basically deserves to go offline.
 
-When revisiting a previously fetched link, of needless to say, don't bother implementing conditional requests via etags or `if-modified-since`.  This is just feature creep and code bloat.  The server already knows which version is latest, so why not fetch that? 
+When revisiting a previously fetched link, needless to say, don't bother implementing conditional requests via etags or `if-modified-since`.  This is just feature creep and code bloat.  The server already knows which version is latest, so why not fetch that? 
 
 Connection pool?  That's gross.  Someone might have peed in that.  Each request is to be a brand new http connection.  Pristine.  You want that new TCP handshake smell.  Can't beat it.  Sure it takes several unnecessary backs-and-forths to establish a TCP connection, but that is mostly a them problem and not a you problem.
 
