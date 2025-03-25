@@ -1,5 +1,5 @@
 ---
-title: 'Marginalia Search recieves second nlnet grant'
+title: 'Marginalia Search receives second nlnet grant'
 date: 2025-03-25
 tags:
 - search-engine
