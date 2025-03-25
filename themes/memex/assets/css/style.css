@@ -82,8 +82,10 @@ article img {
 }
 
 p {
+/*
   hyphens: auto;
   text-align: justify;
+*/
 }
 
 main > h1 {
