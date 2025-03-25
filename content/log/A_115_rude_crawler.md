@@ -43,7 +43,7 @@ Serves them right if they're stuck using a browser like it's some sort of mediev
 
 Some haters say that if you crawl over a shitty connection and drop a ton of packets every time a car drives by or someone runs the microwave, it might mess with the congestion control algorithm of the server you're talking to, leading to them severely throttling their network throughput.  But again, whose problem is that?  You've got a business to run here, can't listen to these types of nay-sayers and haters.
 
-That's it for tips!  The mandate of heaven is surely yours for the taking if you are visionary enough to implement these tips.  
+That's it for tips!  The mandate of heaven is surely yours for the taking if you have a clear enough vision to not bother with online etiquette.  
 
 Thanks for coming to my TED talk.
 
