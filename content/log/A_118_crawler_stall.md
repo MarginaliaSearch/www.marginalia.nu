@@ -38,8 +38,7 @@ It gave me two weird results:
 * The pool was 95% vacant
 * The statistics stopped coming when crawling stopped
 
-At this time I did a new thread dump to see what was going on with the statistics stopping.  
-Still 90% of the threads stuck trying to lease a connection.  ... but also a few threads stuck trying to return a connection.  And one thread stuck trying to close a connection (while holding a connection pool lock)?!  (stack trace excerpts at the end of the post)
+At this time I did a new thread dump to see what was going on with the statistics stopping.  Still 90% of the threads stuck trying to lease a connection.  ... but also a few threads stuck trying to return a connection.  And one thread stuck trying to close a connection (while holding a connection pool lock)?!  (stack trace excerpts at the end of the post)
 
 From this it was fairly easy to identify that the culprit was `SO_LINGER`, which has the almost unique ability to make `close()` into a blocking call.  
 
