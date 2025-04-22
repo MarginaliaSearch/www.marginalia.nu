@@ -11,17 +11,17 @@ but has led to a fair number of headaches.
 
 Java's HttpClient has one damning flaw, and that that it doesn't support socket timeouts.  
 
-Its only supported timeout values are time to connect, and time until first byte of the response.  This means the client can get stuck on a read call if a server stops responding, potentially forever!
+Its only supported timeout values are time to connect, and time until first byte of the response.  This means the client can get stuck on a read call if a server stops responding, potentially for a very long time!
 
 You can work around this by wrapping each call in a thread and interrupting that thread on a timer, but this is both wasteful and annoying, and I can't find any other HTTP client library that doesn't permit socket timeouts to be set anywhere I look.
 
-The stuck server may be a fairly academic scenario in most circumstances, but for a web crawler it's very real scenario (and sometimes a malicious attack).  Because of this, and other smaller annoyances, I ported the crawler over to Apache's HttpClient, which is fairly similar in design but a lot more competent (and easier to mess up).
+The stuck server may be a fairly academic scenario in most circumstances, but for a web crawler it's very real scenario (and sometimes a malicious attack).  Because of this, and other smaller annoyances, I ported the crawler over to Apache's HttpClient, which is fairly similar in both name and design, but a lot more competent... and easier to mess up.
 
 The actual migration was fairly smooth.  I built a battery of new tests, found some bugs, fixed them, tested the thing locally against my own websites. Seemed to work.  So after shaking it down some more I put it in production.
 
-That's when the problems began.
+**That's when the problems began.**
 
-In short, the crawler ran for about 3 minutes and than came to a screeching halt with deafening silence in the logs... and then a few minutes later, a ton of error messages.  
+In short, the crawler ran for about 3 minutes and than came to a halt with deafening silence in the logs... and then a few minutes later, a ton of error messages.  
 
 I immediately assumed the problem was a resource leak, as Apache's HttpClient has you doing a fair bit of manual freeing up of resources, which might lead to the connection pool filling up.  
 
