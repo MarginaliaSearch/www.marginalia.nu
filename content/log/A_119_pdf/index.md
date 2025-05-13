@@ -48,7 +48,7 @@ text, this works when headings are bolded, but not all headings are bolded!
 <figcaption>Excerpt of the first page of "Can Education be Standardized? Evidence from Kenya", working version</figcaption>
 </figure>
 
-As we see in the example above, many headings instead rely on font size instead.  
+As we see in the example above, many headings instead rely on font size instead.
 
 This poses a problem, as font-sizes are very much specific to the document itself, one document may have its 
 body in 10pt with 16pt headings, another may use 14pt and 20pt instead!  Finding a global breakpoint is futile, 
@@ -64,7 +64,7 @@ There is some degree of noisiness to the font size  distribution caused by subsc
 
 We can see the distributions of pages 9 and 10 are fairly similar, but page 1 deviates significantly.
 
-Note the logarithmic scale of the y-axis of the graph:  For each page there tends to be one dominant font size, which is generally the body text.
+For each page there tends to be one dominant font size, which is generally the body text (note the logarithmic y-scale).
 
 The differences in distribution hints that we may want to use not per-document statistics, but per-page statistics, since particularly the font choices on the first page often deviates from the rest. In the case of "Can education be standardized...", font size 17 is used for the title of the document, but font size 14 is used for headings later on.
 
