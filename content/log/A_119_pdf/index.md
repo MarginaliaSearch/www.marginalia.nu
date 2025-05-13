@@ -36,7 +36,7 @@ PDFTextStripper class, which *sort of* solves the problem, but with a lot of lim
 it isn't quite suitable fo the search engine's needs, as it does as it says on the box, extract the text from a PDF 
 with no regards for headings or other semantics, which are incredibly important relevance signals.
 
-While the format does allow some metadata fields including a name, almost nobody seems to populate that field with anything meaningful.
+Following are some of the modifications made to provide a pdf-to-text extraction that is better suited to the search engine's needs.
 
 ## Identifying headings
 
