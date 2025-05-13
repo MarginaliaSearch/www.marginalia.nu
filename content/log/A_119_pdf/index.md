@@ -68,7 +68,7 @@ For each page there tends to be one dominant font size, which is generally the b
 
 The differences in distribution hints that we may want to use not per-document statistics, but per-page statistics, since particularly the font choices on the first page often deviates from the rest. In the case of "Can education be standardized...", font size 17 is used for the title of the document, but font size 14 is used for headings later on.
 
-Attaching some factor of about 20% to the median font size of the page seems to fairly reliably identify headings.  There are of course always exceptions,
+Attaching some factor of about 20% to the median font size of each page seems to fairly reliably identify headings.  There are of course always exceptions,
 but this catches most of the important cases.
 
 ### Joining consecutive headings
