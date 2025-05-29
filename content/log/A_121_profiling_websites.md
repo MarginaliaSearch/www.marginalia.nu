@@ -13,7 +13,7 @@ The search engine already tries to do this, but isn't very good at it because it
 
 It turns out to be somewhat difficult to determine what a website that has non-trivial javascript will look like based its source code alone, as this would require us to among other things solve the halting problem.
 
-The simple way around this is to use brwoser automation to actually render the website.  This is on the other hand very expensive for both client and server,  so it's not really feasible to use in crawling unless you want the entire Internet to hate you, making it more suitable for a separate sampling and analysis track.
+The simple way around this is to use browser automation to actually render the website.  This is on the other hand very expensive for both client and server,  so it's not really feasible to use in crawling unless you want the entire Internet to hate you, making it more suitable for a separate sampling and analysis track.
 
 Although stopping at just the rendered DOM isn't quite giving enough information, as often a lot of the information we need is in the style sheets, some popovers don't load until we've moved the mouse in a certain way, and so on.
 
