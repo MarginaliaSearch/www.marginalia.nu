@@ -145,7 +145,7 @@ We can filter out some of the peaks by only looking at events where we also see 
   <figcaption>Certificate Fingerprint Changes, where security headers also changed</figcaption>
 </figure>
 
-Overall requiring two factors that "should" be unrelated to co-occur seems to bring most of the rest of the factors to also line up much more than before.  There is still a tendency toward peaks on certain days, which as mentioned can have several causes, including how major <abbr title="Certificate Authority">CAs</a> have begun to issue 90 day (~12 week) certificates.  
+Overall requiring two factors that "should" be unrelated to co-occur seems to bring most of the rest of the factors to also line up much more than before.  There is still a tendency toward peaks on certain days, which as mentioned can have several causes, including how major <abbr title="Certificate Authority">CAs</abbr> have begun to issue 90 day (~12 week) certificates.  
 
 Sampling the events where fingerprint, <abbr title="Autonomous System Number">ASN</abbr>, security headers and software has changed, yields a small incidence of about 10-15% of parked domains, but raises an interesting observation.
 
@@ -158,7 +158,7 @@ A very simple heuristic that's successfully picking up a large number of domain 
 * Server stopped responding to HTTPS, and now responds to HTTP
 * Status Code < 400
 
-<abbr title="Autonomous System Number">ASN</a> 16509 (OVH SAS) is also a very strong indicator, which produces 100% parked domains among the sampled data.  You get several "looks" for the parked domain pages from 16509, but a similar setup, leading to the suspicion that it's all the same operation.  
+<abbr title="Autonomous System Number">ASN</abbr> 16509 (OVH SAS) is also a very strong indicator, which produces 100% parked domains among the sampled data.  You get several "looks" for the parked domain pages from 16509, but a similar setup, leading to the suspicion that it's all the same operation.  
 
 
 <figure>
