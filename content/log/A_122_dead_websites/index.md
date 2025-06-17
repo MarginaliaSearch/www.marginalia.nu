@@ -79,14 +79,14 @@ DNS information is in a third table because it operates on a different set of do
 
 Change information is stored in separate events tables.  These are treated as effectively immutable, append-only.  This is to cope with the performance implications of the events tables (eventually) growing significantly larger than the live snapshot tables.  
 
-The events tables store a summary of the changes, as well as persisting the full before-and-after state of the information tables as compressed JSON.  This trade-off allows the retention of full historical snapshots, with smaller on-disk storage, while making schema changes somewhat more tolerable.
+The events tables store a summary of the changes, as well as persisting the full before-and-after state of the information tables as compressed JSON.  This trade-off allows the retention of full historical snapshots, with smaller on-disk storage, while making schema changes somewhat more tolerable as the events tables are likely to grow very large over time.
 
 To avoid having these tables grow forever, they're partitioned by month.  This makes it possible to run a job which exports old data into e.g. parquet or a columnar storage, and then truncating the partitions as-needed.  Unlike DELETE-based flows, this can safely be done while the system is running without long table locks as new data is predictably always inserted into a different partition. 
 
 <a name="details"></a>
 # Change Detection Details
 
-The actual uptime and change detection is primarily implemented using HTTP HEAD requests.  Not all servers support this, so GET is used as a fallback, along with some schema negotiation that will try HTTP if HTTPS fails. 
+The actual availability and change detection is primarily implemented using HTTP HEAD requests.  Not all servers support this, so GET is used as a fallback, along with some schema negotiation that will try HTTP if HTTPS fails. 
 
 Requests are made with a somewhat short 15 second timeout.  This is very much a trade-off between accuracy and not having the process get stuck waiting for minutes on responses that never come.
 
