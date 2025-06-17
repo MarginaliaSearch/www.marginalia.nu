@@ -140,7 +140,7 @@ We can see some peaks, particularly in Cert Fingerprint at 4 and 12 weeks to exp
 Peaks like these can be explained either by something like certbot's auto-renewal, or by a large host renewing their certificate, or a website with many subdomains changing.
 
 <figure>
-  <a href="renewals.png"><img src="renewals.png"><a>
+  <a href="renewals.png"><img src="renewals.png"></a>
   <figcaption>Changes by Time To Expiry</figcaption>
 </figure>
 
