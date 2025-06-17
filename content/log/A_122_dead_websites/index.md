@@ -95,9 +95,8 @@ Requests are made with a somewhat short 15 second timeout.  This is very much a 
 ## Availability Detection
 
 For availability detection, which is probably the easiest case, there is still the caveat of transient errors, both server-side, but also on the client network which may be overloaded.
-Such errors are not too interesting to know about, so merely looking at the last ping is not very useful.   
 
-To this end, the timestamp of the last successful connection, as well as the last failed connection, and the number of consecutive errors is kept.  Together, these paint a better picture of the availability of the server. 
+Transient errors are not too interesting to know about, so merely looking at the last ping is not very useful.   To this end, the timestamp of the last successful connection, as well as the last failed connection, and the number of consecutive errors is kept.  Together, these paint a better picture of the availability of the server. 
 
 In a sample of approximately 1,033,000 records, in an 8 hour window, the availability of the set of domains that were being checked ended up as follows: 
 
