@@ -124,13 +124,9 @@ The availability detector tries port 80 if it fails to connect to port 443 (but 
 
 ## Ownership Changes
 
-The second class of events that is of interest is identifying ownership changes, major redesigns, domain parking, and similar.   
+The second class of events that is of interest is identifying ownership changes, major redesigns, domain parking, and similar.   This is much more of a puzzle.  
 
-This is much more of a puzzle.  
-
-There are many factors which will change when a domain changes owners, such as its certificate and DNS pointers, but these may also change for other reasons.  
-
-Looking at the SSL certificate, it must change when a domain changes owners, but it may also be changed when it is renewed, or replaced for other reasons.  
+There are many factors which will change when a domain changes owners, such as its certificate and DNS pointers, but these may also change for other reasons.  Looking at the certificate, it must change when a domain changes owners, but it may also be changed when it is renewed, or replaced for other reasons.  
 
 To give some indication of the predictive power of these indicators, let's plot them against time to expiry.  
 
@@ -228,7 +224,7 @@ Another obstacle has been finding a good balance between correctness and sanity 
 
 This code is often hidden away, which is generally a good thing as it's a fractal of pitfalls and weird caveats.  
 
-As the point of this exercise in this is at no point any form of secure communication, more so to get a feel for the health of the server, the SSL validation code is very lenient.  
+As the point of this exercise in this is at no point any form of secure communication, more so to get a feel for the health of the server, the SSL/TLS validation code is very lenient.  
 
 The basic questions the system is attempting to answer are the following:
 
