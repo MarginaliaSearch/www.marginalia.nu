@@ -12,11 +12,11 @@ set ylabel 'Fingerprint changes'
 
 set title "Certificate Changes"
 
-set style line 1 lt 1 lc rgb '#800080'
-set style line 2 lt 1 lc rgb '#008080'
-set style line 3 lt 1 lc rgb '#808000'
-set style line 4 lt 1 lc rgb '#F00000'
-set style line 5 lt 1 lc rgb '#0000F0'
+set style line 1 lt 1 lc rgb '#FF0000'
+set style line 2 lt 1 lc rgb '#0000FF'
+set style line 3 lt 1 lc rgb '#804000'
+set style line 4 lt 1 lc rgb '#004080'
+set style line 5 lt 1 lc rgb '#808080'
 
 set output 'renewals.png'
 
