@@ -137,15 +137,15 @@ We can see some peaks, particularly in Cert Fingerprint at 4 and 12 weeks to exp
 Peaks like these can be explained either by something like certbot's auto-renewal, or by a large host renewing their certificate, or a website with many subdomains changing.
 
 <figure>
-  <img src="renewals.png">
-  <figcaption></figcaption>
+  <a href="renewals.png"><img src="renewals.png"><a>
+  <figcaption>Changes by Time To Expiry</figcaption>
 </figure>
 
 We can filter out some of the peaks by only looking at events where we also see other expected changes.  
 
 <figure>
-  <img src="renewals_headers_fp.png">
-  <figcaption></figcaption>
+  <a href="renewals_headers_fp.png"><img src="renewals_headers_fp.png"></a>
+  <figcaption>Certificate Fingerprint Changes, where security headers also changed</figcaption>
 </figure>
 
 Overall requiring two factors that "should" be unrelated to co-occur seems to bring most of the rest of the factors to also line up much more than before.  There is still a tendency toward peaks on certain days, which as mentioned can have several causes, including how major CAs have begun to issue 90 day (~12 week) certificates.  
@@ -191,6 +191,7 @@ The DNS event information needs more analysis, but a short summary of the change
 | MX      | 2,656,984    |
 | CAA     | 203,408      |
 | TXT     | 1,468,475    |
+
 It is unlikely these events will say very much on their own, the hope is they may help add context to the other events gathered. 
 <a name="hurdles"></a>
 # Implementation Hurdles
