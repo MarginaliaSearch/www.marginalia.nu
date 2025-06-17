@@ -8,7 +8,7 @@ tags:
 ---
 
 
-As some of the work planned for Marginalia Search this year has been progressing a bit faster than anticipated, there was time to implement an unplanned change:
+As some of the work planned for Marginalia Search this year has been progressing a bit faster than anticipated, there was time to implement an unplanned change.
 
 A system for detecting when servers are online,  to avoid serving dead links and improve data quality, and for detecting when websites have significant changes including ownership changes.
 
