@@ -112,6 +112,7 @@ In a sample of approximately 1,033,000 records, in an 8 hour window, the availab
 | Client:NoHttpResponseException  | 2,026   |
 | Connection Error                | 1,103   |
 
+
 <small>
 <sup>1</sup>  SSLException is thrown when the platform's SSL/TLS code failed to make sense of what the server was sending, even when ignoring all certificate errors.   'Certificate Invalid' on the other hand is when the custom certificate validator has found a problem, such as incorrect <abbr title="Subject Alternative Name">SAN</abbr> or usage past viable date.</small>
 
