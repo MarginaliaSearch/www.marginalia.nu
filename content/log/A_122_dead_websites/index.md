@@ -147,7 +147,7 @@ We can filter out some of the peaks by only looking at events where we also see 
 
 Overall requiring two factors that "should" be unrelated to co-occur seems to bring most of the rest of the factors to also line up much more than before.  There is still a tendency toward peaks on certain days, which as mentioned can have several causes, including how major <abbr title="Certificate Authority">CAs</a> have begun to issue 90 day (~12 week) certificates.  
 
-Sampling the events where fingerprint, <abbr title="Autonomous System Number">ASN</a>, security headers and software has changed, yields a small incidence of about 10-15% of parked domains, but raises an interesting observation.
+Sampling the events where fingerprint, <abbr title="Autonomous System Number">ASN</abbr>, security headers and software has changed, yields a small incidence of about 10-15% of parked domains, but raises an interesting observation.
 
 In the case of parked domains, it seems as they expire, they keep serving traffic, but initially only in plain HTTP.  After a while they gain a Let's Encrypt certificate, and start serving HTTPS as well.  Though this HTTPS->HTTP transition is a very strong signal of a parking event! 
 
