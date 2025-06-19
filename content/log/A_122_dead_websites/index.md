@@ -158,7 +158,7 @@ A very simple heuristic that's successfully picking up a large number of domain 
 * Server stopped responding to HTTPS, and now responds to HTTP
 * Status Code < 400
 
-<abbr title="Autonomous System Number">ASN</abbr> 16509 (OVH SAS) is also a very strong indicator, which produces 100% parked domains among the sampled data.  You get several "looks" for the parked domain pages from 16509, but a similar setup, leading to the suspicion that it's all the same operation.  
+<abbr title="Autonomous System Number">ASN</abbr> 16509 (Amazon.com) is also a very strong indicator, which produces 100% parked domains among the sampled data.  You get several "looks" for the parked domain pages from 16509, but a similar setup, leading to the suspicion that it's all the same operation.  
 
 
 <figure>
