@@ -10,8 +10,10 @@ aliases:
 
 **This information is outdated** 
 
-The marginalia search project info now lives on [about.marginalia-search.com](https://about.marginalia-search.com/).
 
+If you are looking for the search engine itself, visit [https://marginalia-search.com](https://marginalia-search.com).
+
+The marginalia search project information page now lives over at [about.marginalia-search.com](https://about.marginalia-search.com/).
 </div>
 
 Information relating to the Marginalia Search project. 
