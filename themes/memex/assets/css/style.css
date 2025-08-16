@@ -242,20 +242,24 @@ color: var(--fg-muted);
   text-align: justify;
   hyphens: auto;
 }
+
 @media (min-width: 1024px) {
   #content h2, article > .content h2 {
     font-size: 10pt;
     font-weight: regular;
     margin-left: -22ch;
-    max-width: 20ch;
+    width: 19ch;
     display: inline-block;
+    text-align: right !important;
     float: left;
   }
   #content h3, article > .content h3 {
     font-size: 8pt;
     font-weight: regular;
     margin-left: -21ch;
-    max-width: 20ch;
+    width: 17ch;
+    display: inline-block;
+    text-align: right !important;
     float: left;
     display: inline-block;
   }
