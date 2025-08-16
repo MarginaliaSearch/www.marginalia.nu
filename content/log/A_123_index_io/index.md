@@ -5,7 +5,7 @@ tags:
   - search-engine
   - nlnet
 ---
-The Marginalia Search index has been largely rewritten to perform much better, using new data structures designed to make better use of modern hardware.  This post will cover the new design, and will also touch upon some of the unexpected and unintuitive performance characteristics of NVMe SSDs when it comes to read sizes.
+The Marginalia Search index has been partially rewritten to perform much better, using new data structures designed to make better use of modern hardware.  This post will cover the new design, and will also touch upon some of the unexpected and unintuitive performance characteristics of NVMe SSDs when it comes to read sizes.
 
 The index is already fairly large, but can sometimes feel smaller than it is, and paradoxically, query performance is a big part of why.  If each query has a budget of 100-250ms, a design that finds and ranks results faster in that time period will produce better search results.   There are other limitations as well, query understanding is still somewhat limited, where only minor changes to a query can unearth dozens of new related results.
 
