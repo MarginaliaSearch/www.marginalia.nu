@@ -190,7 +190,7 @@ These huge blocks also mean we can add a significant number of forward pointers 
 
 Another benefit of larger blocks is that the buffer pool performs better, as the access pattern changes from many mutations of a large table, to fewer mutations of a small one. 
 
-### I/O contention and latency
+### Read latency
 
 At this point the index was fast, but the search engine was suffering from very inconsistent request times.  The search engine is tasked with not merely ranking many documents and finding the best, but doing so in a timely manner.  
 
