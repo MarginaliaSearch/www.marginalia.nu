@@ -15,9 +15,7 @@ The next task is indexing results in additional languages, which is also likely 
 
 A write-up is in the pipeline that will provide more details about the advertisement detection system, which is code complete but waiting for more data to trickle in.  Since data-gathering began in May, only about 60% of the domains have been analyzed, so the results are still somewhat incomplete and the results likewise patchy.  Here is a [teaser](https://marginalia-search.com/site/themindlessphilosopher.wordpress.com?view=traffic) if anyone is eager for a sneak preview.
 
-Queries have rarely been slow and these changes won't make them faster, query execution time mostly matters for search result quality, and as the index grows, this problem is exacerbated.
-
-For many queries there are more potential results than can be ranked in a timely manner.  The challenge is to find a heuristic to rank them in an order where the results most likely to be relevant are ranked early, and after that, to rank as many documents as possible in the allotted time budget.
+## Indexing at a glance
 
 At a very high level you can think of the search engine's data structures like the C++-like code below.  Boxes and arrows will just bring in additional details that add no relevant understanding and just makes this more confusing, in this case code is much easier to reason about.  Just keep in the back of your mind this is just an analogy, and these are actually files on disk.
 
@@ -40,7 +38,7 @@ For the purposes of this blog post, a query can be understood to work like this:
 
 The `inverted_index`  structure has been implemented as a memory-mapped B-tree.  There are compelling arguments why this is a bad idea gathered in the paper [Are You Sure You Want to Use MMAP in Your Database Management System?](https://db.cs.cmu.edu/mmap-cidr2022/)   While known, this has mostly been ignored in the name of solving one problem at a time. 
 
-## Aside: Buffered and Direct Mode
+### Aside: Read Modes
 
 *If you have already read `open(2)`, you can skim through this part.* 
 
