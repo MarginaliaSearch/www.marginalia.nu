@@ -235,7 +235,7 @@ These changes are all merged into master and deployed in production, and after s
 
 The new index is designed to make the most use of NVMe SSDs, but as it's intended to possible to run on a variety of hardware, a lot of it is configurable, and for example disabling io_uring and reducing block sizes should make it operate reasonably well even on SATA SSDs.
 
-Check out the links below if you found this even remotely interesting.  They're dig much deeper into the same sorts of topics.
+Check out the links below if you found this even remotely interesting.  They dig much deeper into the same sorts of topics.
 ## Further Reading
 
 * [Reading from External Memory](https://arxiv.org/pdf/2102.11198) - Ruslan Savchenko
