@@ -21,7 +21,7 @@ At a very high level you can think of the search engine's data structures like t
 
 ```c++
 map<term_id, 
-    map<pair<document_id, positions_idx>>
+    map<document_id, positions_idx>
    > inverted_index; 
 
 list<positions> positions;
