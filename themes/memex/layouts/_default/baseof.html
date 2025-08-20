@@ -21,7 +21,7 @@
 	{{- if .Site.Params.twitter_cards }} {{ template "_internal/twitter_cards.html" . }} {{- end }}
     <title>{{ block "title" . }}
       {{ with .Title }}
-        {{ . }} @ 
+        {{ . }} |
       {{ end }}
       {{ .Site.Title }}
     {{ end }}</title>
