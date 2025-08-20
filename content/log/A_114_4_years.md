@@ -25,7 +25,7 @@ The search engine has also been migrated off the `search.marginalia.nu` domain o
 
 ## Slop for Crawl Data
 
-[Slop](/log/a_112_slop_ideas/index.md/) is a small spin-off project, a self-describing columnar data format that's optimized for sequential consumption; intended to replace poorly performing Parquet storage solutions used by the search engine.  
+[Slop](/log/a_112_slop_ideas/) is a small spin-off project, a self-describing columnar data format that's optimized for sequential consumption; intended to replace poorly performing Parquet storage solutions used by the search engine.  
 
 It's still in an alpha state, but it's now replaced parquet for crawl data as well as intermediate storage.  Replacing all data storage with an alpha state storage format probably seems risky, but it's offset by how simple the storage format is.  The sorts of nooks where bugs tend to hide in data storage simply don't exist in the code.
 
