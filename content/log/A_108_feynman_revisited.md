@@ -1,5 +1,5 @@
 ---
-title: "Feynman\'s Garden"
+title: "Feynman's Garden"
 date: '2024-05-26'
 distinguished: 1
 ---
