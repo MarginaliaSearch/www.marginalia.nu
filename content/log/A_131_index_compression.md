@@ -1,6 +1,6 @@
 ---
 title: 'Index Compression, Query Execution Improvements'
-date: 2026-02-10
+date: 2026-02-13
 tags:
 - search-engine
 - nlnet
