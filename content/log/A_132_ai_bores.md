@@ -5,7 +5,7 @@ tags:
 - ai
 ---
 
-This post is an elaboration on a comment I made on Hacker News lately, 
+This post is an elaboration on a comment I made on Hacker News recently, 
 on <a href="https://www.arthurcnops.blog/death-of-show-hn/">a blog post</a> that showed an increase in volume and decline in quality among the "Show HN" submissons.
 
 <blockquote>
