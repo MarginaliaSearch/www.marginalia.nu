@@ -17,7 +17,7 @@ or
 
 Beyond the accounts that are visibly glitching out, the vibe is seriously off.  Hard to really put a finger on how, but I had the idea of scraping /newcomments and /noobcomments to see if I could make sense of it.  First is for comments that are recently made, and the second is for comments that are recently made by newly registred accounts.
 
-After some simple statistics, I quickly found that:
+With some simple statistics, I quickly found that:
 
 * Comments from newly registered accounts are nearly 10x more likely to use em-dashes, arrows, and other symbols in their text (17.47% vs 1.83% of comments).
 
