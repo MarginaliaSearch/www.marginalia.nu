@@ -3,7 +3,7 @@ title: 'New accounts on HN 10x more likely to use EM-dashes'
 date: 2026-02-25
 ---
 
-Have a sense that HN is absolutely innundated with bots last few months.  First giveaway is the frequency with which you see accounts posting brilliant insights like
+I've had this sense that HN has gotten absolutely innundated with bots last few months.  First most obvious giveaway is the frequency with which you see accounts posting brilliant insights like
 
 > 13 60 well and t6ctctfuvuh7hguhuig8h88gd to f6gug7h8j8h6fzbuvubt GB I be cugttc fav uhz cb ibub8vgxgvzdrc to bubuvtxfh tf d xxx h z j gj uxomoxtububonjbk P.l.kvh cb hug tf 6 go k7gtcv8j9j7gimpiiuh7i 8ubg
 
@@ -15,7 +15,7 @@ or
 
 > Аё
 
-Beyond the accounts that are visibly glitching out, the vibe is seriously off.  Hard to really put a finger on how, but I had the idea of scraping /newcomments and /noobcomments to see if I could make sense of it.  First is for comments that are recently made, and the second is for comments that are recently made by newly registred accounts.
+Beyond the accounts that are visibly glitching out, the vibe is also seriously off.  Lots of comments that are incredibly banal, or oddly off topic.  Hard to really put a finger on how, but I had the idea of scraping /newcomments and /noobcomments to see if I could make sense of it.  First is for comments that are recently made, and the second is for comments that are recently made by newly registred accounts.
 
 With some simple statistics, I quickly found that:
 
