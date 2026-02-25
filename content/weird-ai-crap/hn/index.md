@@ -1,6 +1,6 @@
 ---
 title: 'New accounts on HN 10x more likely to use EM-dashes'
-date: 2025-02-25
+date: 2026-02-25
 ---
 
 Have a sense that HN is absolutely innundated with bots last few months.  First giveaway is the frequency with which you see accounts posting brilliant insights like
