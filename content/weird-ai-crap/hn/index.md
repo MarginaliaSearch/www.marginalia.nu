@@ -19,9 +19,9 @@ Beyond the accounts that are visibly glitching out, the vibe is also seriously o
 
 With some simple statistics, I quickly found that:
 
-* Comments from newly registered accounts are nearly 10x more likely to use em-dashes, arrows, and other symbols in their text (17.47% vs 1.83% of comments).
+* Comments from newly registered accounts are nearly 10x more likely to use em-dashes, arrows, and other symbols in their text (17.47% vs 1.83% of comments). p = 7e-20
 
-* Comments from newly registered accounts on HN are also more likely to mention AI and LLMs (18.67% vs 11.8% of comments).
+* Comments from newly registered accounts on HN are also more likely to mention AI and LLMs (18.67% vs 11.8% of comments). p=0.0018
 
 Sample size isn't enormous, about 700 of each category, but these are pretty big differences.  While regular humans sometimes use EM-dashes, arrows, and the like, it's hard to explain why new accounts would be 10x more prone to using them than established accounts.
 
