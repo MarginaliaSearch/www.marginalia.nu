@@ -204,6 +204,8 @@ Precision | 88.44%
 Recall | 88.00%
 F1 | 0.8822
 
+For 43,000 training samples, 2000 epochs, and a learning rate of 0.01, lowered by 2% every 200 epochs.
+
 Though I'd take it with a grain of salt, as we've discussed, the base rate of NSFW results is fairly low,
 so the practical false positive figures are *much* worse. 
 
