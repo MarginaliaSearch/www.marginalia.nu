@@ -79,7 +79,7 @@ so ollama and qwen3.5 makes a compelling all open-source pipeline that can be ru
 This is a slow process, measured in seconds per sample rather than the other way around, 
 but doesn't need any actual human attention can easily be left to cook for a few days.
 
-The results were probably on par with what I'd expect from a human, 
+The results are probably on par with what I'd expect from a human, 
 especially given most humans would be pretty fatigued 10,000 or so labeling decisions in.  
 
 There are many ambiguous cases where a sample could be labeled either NSFW or SAFE depending on
