@@ -155,7 +155,7 @@ I will gloss over the implementation details here and set up the equations and d
 All said and done, this model performed better.  Saving some percentage of training data for evaluations, false positive and false negatives were about 10-15%, which looks pretty good, but to be honest, this is the same sort of figures that fasttext's evaluations were claiming as well.  
 
 The whole point of the exercise is to get around the low base rate problem. The real test is running the classifier on real data.  
-So another script was built, one that grabs search result metadata, labels them with the new classifier, and then verifies the label using ollama+qwen and then saves the labeled "search result" as more training data.
+So another script was built, one that grabs search result metadata from the database, labels them with the new model, and if positive, verifies the label using ollama+qwen and then saves the labeled "search result" as more training data.
 
 The results were better.  There were a lot of false positives, but at least generally false positives that made some sense.  Given the low base rate, a lot of false positives is to be expected.  Initially the model sat at around 10% agreement with the classifier, but crept up to 20-30% later on after feeding it with counter-examples from this new script, as well as adding more features.
 
