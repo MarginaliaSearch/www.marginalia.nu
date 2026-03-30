@@ -454,7 +454,8 @@ parameters are updated, as we note that the hidden layer weights and biases depe
 
         for (int i = 0; i < M_HIDDEN; i++) {
             double dz2_dw2 = a[i];
-            this.w2[i] -= lr * dL_dz2 * dz2_dw2;
+            
+            w2[i] -= lr * dL_dz2 * dz2_dw2;
         }
         
         b2 -= lr * dL_dz2;
