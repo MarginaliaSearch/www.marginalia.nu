@@ -212,7 +212,7 @@ I ended up implementing the network several times,
 first in python using high level libraries, 
 then in Java as a paint by numbers affair following blog posts and asking LLMs for advice when it wasn't working,
 but I'm really not happy writing code I don't understand, 
-so I kept at it until I was able to do so from first principles.
+so I kept at it until I was able to implement the network from scratch from first principles.
 
 This is a cleaned up version of my notes from that exercise. 
 
