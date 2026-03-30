@@ -161,10 +161,9 @@ The results were better.  There were a lot of false positives, but at least gene
 Evaluating the new filter on actual search results, when fed NSFW terms, at this point let through a decent amount of NSFW results,
 problem being that results that only contained one feature and nothing else were essentially ambiguous.  We want the filter to favor rejecting those cases.  So in training, statistics are gathered for the features, for features that appear prominently in both sets, the negative samples are removed with logging to show which terms this is, in case we want to find more disambiguating terms.
 
-This of course means we get more false positives... Remember earlier when I said it was incredibly fiddly work? Yeah.  
+This of course means we get more false positives...  As mentioned, this is a very fiddly exercise.
 
-So anyway, this is going into production.  It's not perfect, NSFW classifiers never are, but it's doing a pretty good job.
-For now it's available on the API only, but a UI option will come soon, if nothing else because it makes it easier to evaluate how well it works. 
+In the end we got there, and this is in production.  It's not perfect, NSFW classifiers never are, but it's doing a pretty good job. For now it's available on the API only, but a UI option will come soon, if nothing else because it makes it easier to evaluate how well it works. 
 
 Public API is prone to rate limiting, but if you have a bit of patience,
 you can test it like this:
