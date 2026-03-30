@@ -25,6 +25,9 @@
       {{ end }}
       {{ .Site.Title }}
     {{ end }}</title>
+    {{ if .Params.math }}
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+    {{ end }}
   </head>
   <body>
     {{ block "header" .}}
