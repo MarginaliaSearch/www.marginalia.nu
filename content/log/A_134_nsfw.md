@@ -115,10 +115,7 @@ Can we focus the classifier by fixing the features?
 I'm going to be honest a big part of this following scheme was inspired by the unreasonable
 success of the naive [recipe detector](https://raw.githubusercontent.com/MarginaliaSearch/MarginaliaSearch/refs/heads/master/code/processes/converting-process/java/nu/marginalia/converting/processor/classifier/topic/RecipeDetector.java) the search engine uses.
 
-The plan goes like this:
-
-Run a term frequency analysis of the labeled sample data, 
-per label, pick out terms that seem relevant to separating the wheat from the chaff using human eyeballing,
+The plan is something like to pick out terms that seem relevant to separating the wheat from the chaff using human eyeballing,
 then build a classifier model based on those handpicked features.
 
 This means first looking for NSFW terms, easy as just grabbing the term frequency list on the NSFW
