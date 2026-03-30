@@ -245,7 +245,7 @@ we were handed these standard construction choices for our model.
 
 --- 
 
-Here we instead have four equations, each feeding into the next.
+Our model consists of four equations, each feeding into the next.
 
 Hidden layer pre-activation:
 
