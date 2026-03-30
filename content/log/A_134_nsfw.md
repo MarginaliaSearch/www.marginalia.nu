@@ -180,7 +180,7 @@ $ curl -H"API-Key: public" \
 Filtered:
 
 $ curl -H"API-Key: public" \
-  'https://api2.marginalia-search.com/search?query=escort+service&nsfw=1&count=10' \
+  'https://api2.marginalia-search.com/search?query=escort+service&nsfw=2&count=10' \
   | jq '.results[]'
 ```
 
