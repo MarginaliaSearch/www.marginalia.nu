@@ -70,7 +70,7 @@ how good they are at unsupervised classification tasks,
 which is a decidedly less glitzy problem domain.  
 
 Open source, self-hostable models are more than capable enough for this task,
-so ollama and qwen3 makes a compelling all open-source pipeline that can be run on relatively modest consumer hardware.  
+so ollama and qwen3.5 makes a compelling all open-source pipeline that can be run on relatively modest consumer hardware.  
 
 1.  Run search queries.
 2.  Pass the results to ollama / qwen 3.5 with instructions to output an NSFW classification
