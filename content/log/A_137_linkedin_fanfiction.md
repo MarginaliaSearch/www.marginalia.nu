@@ -15,4 +15,4 @@ They saw the message, a sepia studio ghibli style AI infographic educating them 
 
 The bus stopped, and Bill Gates stepped away from the steering wheel.  It wasn't a bus at all, but a yacht.  I'd been pranked.  This was my graduation from the grind.  I'd made it.  He gave me the yacht as thanks.  The old lady was actually Jeff Bezos, he was in on the prank.  He acquired my business immediately and now I'm sipping on champagne bottles.  All thanks to Claude. 
 
-The punks, by the way, were played by Elon Musk and Sam Altman.  I didn't even recongize them in their baggy clothes.  Really important insights about growth and preconceptions this morning.
+The punks, by the way, were played by Elon Musk and Sam Altman.  I didn't even recognize them in their baggy clothes.  Really important insights about growth and preconceptions this morning.
