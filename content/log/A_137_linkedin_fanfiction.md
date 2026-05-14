@@ -7,7 +7,7 @@ tags:
 
 I was on the bus on my way to an important business meeting about the exponential growth of my MRR, when suddenly I noticed some troublemakers were hassling an old lady.  Their caps were on backwards, their clothes were baggy, and probably thought the grindset was about skateboarding.  
 
-I had to act.  I opened my macbook and showed Claude what was happening. "Claude, we gotta do something!", I said.  "You're absolutely right!", Claude affirmed in a calmn and confident font, and thanks to `--dangerously-skip-permissions`, it had started coding before I had even thought about what to do.  It was "cannoodling", which I think is one of the good ones.
+I had to act.  I opened my macbook and showed Claude what was happening. "Claude, we gotta do something!", I said.  "You're absolutely right!", Claude affirmed in a calm and confident font, and thanks to `--dangerously-skip-permissions`, it had started coding before I had even thought about what to do.  It was "cannoodling", which I think is one of the good ones.
 
 Just as they started listening to music without headphones, Claude was finished.  No time.  "We gotta deploy this now!", I typed as fast I could think.  "Way ahead of you!  It's up on http://localhost:8080/, it should hack their phones any moment!"  It had barely finished printing the message before their phones lit up.  
 
