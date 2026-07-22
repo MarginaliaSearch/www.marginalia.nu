@@ -124,8 +124,28 @@ The cause of this is a bit unexpected.
 The main reason why the crawlers take so long to run is that subdomains are pareto distributed,
 and crawler politeness demands we don't hammer websites on the same top domain simultaneously.
 
-A handful of websites (especially substack) are fairly strict on [429](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/429):ing you if you hit them too frequently, 
-but even for the rest, it's better to behave well and keep being allowed to visit, 
+```
+select count(*) as cnt, domain_top from ec_domain group
+by domain_top having cnt>1000 order by cnt desc
+```
+
+| cnt     | domain_top                               |
+|---------|------------------------------------------|
+| 8450330 | tumblr.com                               |
+| 1203425 | blogspot.com                             |
+|  941330 | wordpress.com                            |
+|  334941 | uptodown.com                             |
+|  327154 | bandcamp.com                             |
+|  207933 | livejournal.com                          |
+|  176063 | appstor.io                               |
+|  170366 | github.io                                |
+|  153294 | substack.com                             |
+|  135244 | dreamwidth.org                           |
+|  119282 | medium.com                               |
+|  112578 | wixsite.com                              |
+...
+
+A handful of websites (especially substack) are fairly strict on [429](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/429):ing you if you hit them too frequently, but even for the rest, it's better to behave well and keep being allowed to visit, 
 than to burn the IP being greedy and lose the ability to index them altogether.
 
 This makes for one heck of a bottleneck.  The main crawl finishes in just a few days really, 
