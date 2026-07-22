@@ -124,7 +124,7 @@ The cause of this is a bit unexpected.
 The main reason why the crawlers take so long to run is that subdomains are pareto distributed,
 and crawler politeness demands we don't hammer websites on the same top domain simultaneously.
 
-A handful of websites (especially substack) are fairly strict on 429:ing you if you hit them too frequently, 
+A handful of websites (especially substack) are fairly strict on [429](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/429):ing you if you hit them too frequently, 
 but even for the rest, it's better to behave well and keep being allowed to visit, 
 than to burn the IP being greedy and lose the ability to index them altogether.
 
