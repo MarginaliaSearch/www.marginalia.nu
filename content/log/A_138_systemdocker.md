@@ -124,10 +124,7 @@ The cause of this is a bit unexpected.
 The main reason why the crawlers take so long to run is that subdomains are pareto distributed,
 and crawler politeness demands we don't hammer websites on the same top domain simultaneously.
 
-```
-select count(*) as cnt, domain_top from ec_domain group
-by domain_top having cnt>1000 order by cnt desc
-```
+<figure>
 
 | cnt     | domain_top                               |
 |---------|------------------------------------------|
@@ -143,7 +140,11 @@ by domain_top having cnt>1000 order by cnt desc
 |  135244 | dreamwidth.org                           |
 |  119282 | medium.com                               |
 |  112578 | wixsite.com                              |
-...
+
+<p>
+<figcaption>Table: Worst offenders for known subdomains per top domain</figcaption>
+
+</figure>
 
 A handful of websites (especially substack) are fairly strict on [429](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/429):ing you if you hit them too frequently, but even for the rest, it's better to behave well and keep being allowed to visit, 
 than to burn the IP being greedy and lose the ability to index them altogether.
