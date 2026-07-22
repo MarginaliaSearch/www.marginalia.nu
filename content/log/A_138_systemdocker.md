@@ -1,4 +1,4 @@
----
+--
 date: 2026-07-22
 title: 'Unranked, systemd, crawls'
 tags:
@@ -144,4 +144,4 @@ This has worked well.  Now the main crawler finishes in like five days instead o
 
 I don't know what to put here, so I'll leave you with homework instead as this is my blog and I can end my posts in whatever non-sequiteur fashion I like.
 
-Can AI accelerationism a be framed as a secular [millenarian](https://encyclopedia.marginalia.nu/article/Millenarianism) movement?  Is Ken McLeod correct in that the singularity is just a way of selling the idea of rapture to nerds?  Please publish an essay somewhere arguing for or against this framing.
+Can AI accelerationism a be framed as a secular [millenarian](https://encyclopedia.marginalia.nu/article/Millenarianism) movement?  Is Ken MacLeod correct in that the singularity is just a way of selling the idea of rapture to nerds?  Please publish an essay somewhere arguing for or against this framing.
