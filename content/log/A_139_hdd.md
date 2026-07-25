@@ -1,6 +1,6 @@
 ---
 title: "Your harddrive is probably full"
-date: 2026-07-23
+date: 2026-07-25
 ---
 
 I currently have 17 GB free space on my root drive,
