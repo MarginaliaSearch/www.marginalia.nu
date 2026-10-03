@@ -38,6 +38,8 @@ quick to anger and frustration, mind was racing, looking for faults in the world
 arguing positions against people who weren't there to argue back.
 Probably even more so than normal I was half else where, no matter what I was doing.
 
+---
+
 Then some week ago I decided to *slow down*, I'm not fully sure what came over me to make me do such a thing,
 but it is what I did. 
 
