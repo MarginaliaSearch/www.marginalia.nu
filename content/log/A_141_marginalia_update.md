@@ -7,7 +7,7 @@ tags:
 
 Title possibly signs checks the article doesn't have backing for.  This is just a brief pro forma project update.
 
-Not much new functionality or anything to announce, last few months have mostly been bug fixes and technical debt cleanup.  Most big parts of the search engine are in place, and while there are many things that could be better, we're less likely to straight up see massive new features, at least in the immediate feature.  Per familiar intuition from binary searches, the closer you get to your goal the smaller and more deliberate steps you need to take in order to get even closer.
+Not much new functionality or anything to announce, last few months have mostly been bug fixes and technical debt cleanup.  Most big parts of the search engine are in place, and while there are many things that could be better, we're less likely to straight up see massive new features, at least in the immediate future.  Per familiar intuition from binary searches, the closer you get to your goal the smaller and more deliberate steps you need to take in order to get even closer.
 
 ---
 
